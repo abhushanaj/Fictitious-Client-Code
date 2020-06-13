@@ -1,55 +1,87 @@
 .hero-box {
-  width: 80%;
-  margin: 0 auto;
-  background: pink;
-  padding: 4rem 0rem;
+  width: 55vw;
+  margin: 5rem auto;
+
+  & > * {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: $shadow;
+  }
+
   &__content {
     background: $white;
-    width: 70%;
-    margin: 0 auto;
     padding: 4rem 4rem;
     border-radius: 1rem 1rem 0 0;
   }
-}
-
-.hero-details {
-  width: 70%;
-  margin: 0 auto;
-  background: $cyan;
-  display: flex;
-  justify-content: space-evenly;
-  color: $light-gray;
-  border-radius: 0 0 1rem 1rem;
-
-  &__pricing {
-    width: 50%;
-    padding: 3rem 3rem;
-    border-bottom-left-radius: 1rem;
-    flex: 1;
-  }
 
   &__details {
-    background: hsl(179, 51%, 49%);
-    width: 50%;
-    padding: 3rem 3rem;
-    border-bottom-right-radius: 1rem;
-    flex: 1;
+    display: flex;
+    border-radius: 0 0 1rem 1rem;
   }
 }
 
-.signup-button {
-  background: $bright-yellow;
-  padding: 1.4rem 2.2rem;
-  text-align: center;
+.pricing-box {
+  flex: 0 0 50%;
+  background-color: $cyan;
+  border-bottom-left-radius: 1rem;
   color: $light-gray;
-  border: none;
-  font-family: "Karla", sans-serif;
-  font-weight: bold;
-  display: block;
-  width: 85%;
-  border-radius: 0.3rem;
-  margin: 2rem auto;
-  font-size: 1.5rem;
-  box-shadow: $shadow;
+  padding: 4rem;
+
+  &__head {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__price {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 1.5rem;
+      color: rgba($light-gray, 0.5);
+      display: block;
+      margin-left: 1.4rem;
+    }
+  }
+
+  &__tagline {
+    font-size: 1.6rem;
+  }
+}
+
+.details-box {
+  flex: 0 0 50%;
+  background-color: $cyan-light;
+  border-bottom-right-radius: 1rem;
+  color: $light-gray;
+  padding: 4rem;
+
+  &__head {
+    font-size: 2rem;
+  }
+
+  &__lists {
+    list-style: none;
+    li {
+      font-size: 1.4rem;
+      color: rgba($light-gray, 0.8);
+    }
+  }
+}
+
+/* Buttons */
+.btn {
+  background: $bright-yellow;
+  border: 0;
+  outline: 0;
   cursor: pointer;
+  color: $light-gray;
+  width: 80%;
+  display: block;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  font-family: "Karla";
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1.2rem 0rem;
 }

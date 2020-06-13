@@ -1,52 +1,17 @@
 .hero-box {
   &__main-head {
     color: $cyan;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     font-weight: $bold;
     border-radius: 1rem;
   }
   &__sub-head {
     color: $bright-yellow;
     margin: 0.5rem 0rem;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
   &__tagline {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     color: $grayish-blue;
   }
-}
-
-.monthly-plan {
-  font-weight: bold;
-  font-size: 1.4rem;
-  padding-left: 2rem;
-
-  &__lists {
-    list-style: none;
-    margin-top: 1rem;
-    &--list {
-      font-size: 1.3rem;
-      padding-left: 2rem;
-    }
-  }
-}
-
-.price {
-  font-size: 3rem;
-  position: relative;
-  padding-left: 2rem;
-  margin-top: 1rem;
-
-  span {
-    font-size: 1.2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-.tagline {
-  font-size: 1.4rem;
-  padding-left: 2rem;
 }
