@@ -1,5 +1,6 @@
 # Frontend Mentor - Four card feature section
 
+
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
@@ -21,7 +22,6 @@ Your users should:
 - View the optimal layout for the site depending on their device's screen size
 
 
-
 ## Where to find everything
 
 Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
@@ -32,5 +32,13 @@ You will find all the required assets in the `/images` folder. The assets are al
 
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
+## Deployed Solution
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/18ccbe6f-6993-4352-a361-59d89c27921a/deploy-status)](https://app.netlify.com/sites/elastic-cray-4bbc17/deploys)
+
+Preview here: https://elastic-cray-4bbc17.netlify.app/
+
+
 **Have fun building!** 🚀
+
 

@@ -2,6 +2,9 @@
   margin: 0 auto;
   width: 40rem;
   margin-top: 4rem;
+ @media only screen and (max-width:438px){
+    width:90%;
+  }
 }
 
 .feature-card {
@@ -14,6 +17,9 @@
   flex-direction: column;
   align-items: flex-start;
   box-shadow: $shadow;
+  @media only screen and (max-width:920px){
+        margin-bottom:2rem;
+    }
 
   &__head {
     font-weight: $bold;
@@ -40,6 +46,10 @@
   }
   &--two {
     border-top: 4px solid $red;
+    margin-bottom:4rem;
+    @media only screen and (max-width:920px){
+        margin-bottom:2rem;
+    }
   }
   &--three {
     border-top: 4px solid $orange;

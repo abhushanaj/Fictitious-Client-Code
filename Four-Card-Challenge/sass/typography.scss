@@ -1,16 +1,26 @@
 .main__heading {
   font-size: 3rem;
   font-weight: $light;
+  @media only screen and (max-width:438px){
+    font-size: 2.6rem;
+  }
 }
 
 .sub__heading {
   font-size: 3rem;
   font-weight: $bold;
   color: $dark-blue;
+  @media only screen and (max-width:438px){
+    font-size: 2.6rem;
+  }
 }
 
 .tagline {
   font-size: 1.2rem;
   color: $grayish-blue;
   text-justify: inter-word;
+  text-align:center;
+  @media only screen and (max-width:438px){
+   margin:0 2rem;
+  }
 }

@@ -23,6 +23,9 @@ body {
   margin: 0 auto;
   width: 40rem;
   margin-top: 4rem; }
+  @media only screen and (max-width: 438px) {
+    .heading__box {
+      width: 90%; } }
 
 .feature-card {
   width: 28rem;
@@ -34,6 +37,9 @@ body {
   flex-direction: column;
   align-items: flex-start;
   box-shadow: 0rem 0.4rem 1rem rgba(0, 0, 0, 0.322); }
+  @media only screen and (max-width: 920px) {
+    .feature-card {
+      margin-bottom: 2rem; } }
   .feature-card__head {
     font-weight: 600;
     font-size: 1.8rem;
@@ -51,7 +57,11 @@ body {
   .feature-card--one {
     border-top: 4px solid #45d3d3; }
   .feature-card--two {
-    border-top: 4px solid #ea5353; }
+    border-top: 4px solid #ea5353;
+    margin-bottom: 4rem; }
+    @media only screen and (max-width: 920px) {
+      .feature-card--two {
+        margin-bottom: 2rem; } }
   .feature-card--three {
     border-top: 4px solid #fcaf4a; }
   .feature-card--four {
@@ -65,16 +75,26 @@ body {
 .main__heading {
   font-size: 3rem;
   font-weight: 200; }
+  @media only screen and (max-width: 438px) {
+    .main__heading {
+      font-size: 2.6rem; } }
 
 .sub__heading {
   font-size: 3rem;
   font-weight: 600;
   color: #4c4e61; }
+  @media only screen and (max-width: 438px) {
+    .sub__heading {
+      font-size: 2.6rem; } }
 
 .tagline {
   font-size: 1.2rem;
   color: #a3a5ae;
-  text-justify: inter-word; }
+  text-justify: inter-word;
+  text-align: center; }
+  @media only screen and (max-width: 438px) {
+    .tagline {
+      margin: 0 2rem; } }
 
 .u-center {
   text-align: center; }
@@ -82,6 +102,10 @@ body {
 .u-container {
   max-width: 1140px;
   margin: 0 auto; }
+  @media only screen and (max-width: 500px) {
+    .u-container {
+      width: 90%;
+      margin: 0 auto; } }
 
 .u-margin-top-sm {
   margin-top: 1rem; }
@@ -94,6 +118,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
+  @media only screen and (max-width: 920px) {
+    .feature__cards {
+      flex-direction: column;
+      justify-content: center; } }
 
 .footer {
   width: 100%;
@@ -104,3 +132,6 @@ body {
   .footer__credits {
     font-size: 1.3rem;
     margin: 2rem 0; }
+    @media only screen and (max-width: 438px) {
+      .footer__credits {
+        margin: 2rem 5rem; } }
