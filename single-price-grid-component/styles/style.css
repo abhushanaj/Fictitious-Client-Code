@@ -1,0 +1,114 @@
+/* Primary Colors */
+/* Neutral Colors */
+/* Other Colors */
+/* Font Weights */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  background: #e5eff5; }
+
+.hero-box {
+  width: 80%;
+  margin: 0 auto;
+  background: pink;
+  padding: 4rem 0rem; }
+  .hero-box__content {
+    background: #fff;
+    width: 70%;
+    margin: 0 auto;
+    padding: 4rem 4rem;
+    border-radius: 1rem 1rem 0 0; }
+
+.hero-details {
+  width: 70%;
+  margin: 0 auto;
+  background: #2ab2af;
+  display: flex;
+  justify-content: space-evenly;
+  color: #e5eff5;
+  border-radius: 0 0 1rem 1rem; }
+  .hero-details__pricing {
+    width: 50%;
+    padding: 3rem 3rem;
+    border-bottom-left-radius: 1rem;
+    flex: 1; }
+  .hero-details__details {
+    background: #3dbdbb;
+    width: 50%;
+    padding: 3rem 3rem;
+    border-bottom-right-radius: 1rem;
+    flex: 1; }
+
+.signup-button {
+  background: #c0df34;
+  padding: 1.4rem 2.2rem;
+  text-align: center;
+  color: #e5eff5;
+  border: none;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  display: block;
+  width: 85%;
+  border-radius: 0.3rem;
+  margin: 2rem auto;
+  font-size: 1.5rem;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.438);
+  cursor: pointer; }
+
+.u-container {
+  margin: 0 auto;
+  max-width: 80vw;
+  margin-top: 4rem; }
+
+.hero-box__main-head {
+  color: #2ab2af;
+  font-size: 2.4rem;
+  font-weight: 700;
+  border-radius: 1rem; }
+
+.hero-box__sub-head {
+  color: #c0df34;
+  margin: 0.5rem 0rem;
+  font-size: 1.5rem; }
+
+.hero-box__tagline {
+  font-size: 1.3rem;
+  color: #98a6bd; }
+
+.monthly-plan {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding-left: 2rem; }
+  .monthly-plan__lists {
+    list-style: none;
+    margin-top: 1rem; }
+    .monthly-plan__lists--list {
+      font-size: 1.3rem;
+      padding-left: 2rem; }
+
+.price {
+  font-size: 3rem;
+  position: relative;
+  padding-left: 2rem;
+  margin-top: 1rem; }
+  .price span {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.tagline {
+  font-size: 1.4rem;
+  padding-left: 2rem; }
