@@ -94,6 +94,9 @@
   margin-top: 2rem;
   text-align: center;
   padding: 1.2rem 0rem;
+  &:hover{
+    background: rgba($bright-yellow,0.8);
+  }
 }
 
 
