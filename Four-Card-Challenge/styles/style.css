@@ -1,0 +1,46 @@
+/* Primary Colors */
+/* Neutral Colors */
+/* Font Weights */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #fafafa; }
+
+.heading__box {
+  margin: 0 auto;
+  width: 40rem;
+  margin-top: 4rem; }
+
+.main__heading {
+  font-size: 3rem;
+  font-weight: 200; }
+
+.sub__heading {
+  font-size: 3rem;
+  font-weight: 600; }
+
+.tagline {
+  font-size: 1.2rem;
+  color: #a3a5ae;
+  text-justify: inter-word; }
+
+.u-center {
+  text-align: center; }
+
+.u-container {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.u-margin-top-sm {
+  margin-top: 1rem; }

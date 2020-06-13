@@ -1,0 +1,22 @@
+{
+  "name": "four-card-challenge",
+  "version": "1.0.0",
+  "description": "The solution for the four card challenge from front end mentors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass":"node-sass ./sass/style.scss ./styles/style.css -w"
+  },
+  "keywords": [
+    "Challenges",
+    "UI",
+    "Challenge",
+    "FrontEnd",
+    "Mentors"
+  ],
+  "author": "Abhushan A Joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
