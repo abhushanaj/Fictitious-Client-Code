@@ -98,3 +98,20 @@ body {
 .hero-box__tagline {
   font-size: 1.7rem;
   color: #98a6bd; }
+
+/*Footer*/
+.footer {
+  width: 100%;
+  margin-top: 4rem;
+  padding: 2rem 0rem; }
+  .footer__line {
+    font-size: 2rem; }
+  .footer__credits {
+    font-size: 1.3rem;
+    margin: 2rem 0; }
+    @media only screen and (max-width: 438px) {
+      .footer__credits {
+        margin: 2rem 5rem; } }
+
+.u-center {
+  text-align: center; }
