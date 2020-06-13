@@ -57,6 +57,11 @@ body {
   .feature-card--four {
     border-top: 4px solid #549ef2; }
 
+.link {
+  text-decoration: none; }
+  .link:hover, .link:active {
+    color: #549ef2; }
+
 .main__heading {
   font-size: 3rem;
   font-weight: 200; }
@@ -89,3 +94,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
+
+.footer {
+  width: 100%;
+  margin-top: 4rem;
+  padding: 2rem 0rem; }
+  .footer__line {
+    font-size: 2rem; }
+  .footer__credits {
+    font-size: 1.5rem;
+    margin: 2rem 0; }
