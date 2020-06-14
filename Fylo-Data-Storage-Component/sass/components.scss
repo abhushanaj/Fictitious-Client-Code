@@ -20,6 +20,7 @@
     color: $grayish-blue;
     border-radius: 1rem;
     padding: 3rem;
+    position: relative;
     &__head {
       font-size: 1.3rem;
       span {
@@ -52,7 +53,7 @@
 }
 
 .progress-bar {
-  background: linear-gradient(#ff5e4d, #ff5e4d);
+  background: linear-gradient(to right,$gradient-start, $gradient-end);
   height: 1.2rem;
   width: 70%;
   border-radius: 1rem;
@@ -76,4 +77,39 @@
   justify-content: space-between;
   color: $pale-blue;
   font-weight: $bold;
+}
+
+.progress-info__box {
+  width: max-content;
+  padding: 0.5rem 1.3rem;
+  background: $pale-blue;
+  font-size: 3.4rem;
+  color: $very-dark-blue;
+  font-weight: $bold;
+  border-radius: 1rem;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  top: -5rem;
+  left: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  span:last-child {
+    font-size: 1rem;
+    color: $grayish-blue;
+    margin-left: 1rem;
+  }
+
+  &::after {
+    position: absolute;
+    right: 0;
+    bottom: -3rem;
+    display: block;
+    content: "";
+    width: 3rem;
+    height: 3.2rem;
+    background-color: $pale-blue;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
 }
