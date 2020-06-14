@@ -1,0 +1,31 @@
+.storage {
+  &-details {
+    flex: 0 0 30%;
+    background-color: $dark-blue;
+    padding: 3rem;
+    border-radius: 1rem;
+    border-top-right-radius: 10rem;
+
+    &__nav {
+      display: flex;
+      justify-content: flex-start;
+      align-items: stretch;
+      margin-top: 3rem;
+    }
+  }
+
+  &-info {
+    flex: 0 0 70%;
+    background-color: $dark-blue;
+  }
+}
+
+.nav-items {
+  background: $very-dark-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  border-radius: 0.7rem;
+  margin-right:1rem;
+}
