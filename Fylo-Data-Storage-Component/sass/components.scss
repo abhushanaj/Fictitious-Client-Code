@@ -5,6 +5,10 @@
     padding: 3rem;
     border-radius: 1rem;
     border-top-right-radius: 10rem;
+    @media only screen and(max-width:707px) {
+      margin: 4rem;
+      width: 80%;
+    }
 
     &__nav {
       display: flex;
@@ -21,6 +25,14 @@
     border-radius: 1rem;
     padding: 3rem;
     position: relative;
+    @media only screen and(max-width:707px) {
+      width: 80%;
+      margin: 0 auto;
+      padding: 5rem;
+    }
+    @media only screen and(max-width:500px) {
+      padding:2rem 1.5rem;
+    }
     &__head {
       font-size: 1.3rem;
       span {
@@ -53,7 +65,7 @@
 }
 
 .progress-bar {
-  background: linear-gradient(to right,$gradient-start, $gradient-end);
+  background: linear-gradient(to right, $gradient-start, $gradient-end);
   height: 1.2rem;
   width: 70%;
   border-radius: 1rem;
@@ -95,6 +107,17 @@
   justify-content: space-evenly;
   align-items: center;
 
+  @media only screen and (max-width: 940px) {
+    left: 50%;
+  }
+  @media only screen and (max-width: 707px) {
+    border-bottom-right-radius: 1rem;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem 2rem;
+  }
+
   span:last-child {
     font-size: 1rem;
     color: $grayish-blue;
@@ -111,5 +134,9 @@
     height: 3.2rem;
     background-color: $pale-blue;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
+
+    @media only screen and (max-width: 707px) {
+      opacity: 0;
+    }
   }
 }

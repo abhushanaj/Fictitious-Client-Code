@@ -6,8 +6,50 @@ body {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size:100% 50%;
+  background-size: 100% 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  overflow: hidden;
+
+  @media only screen and (max-width: 900px) {
+    background: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+}
+
+/* Footer*/
+.footer {
+  color: $pale-blue;
+  padding: 2rem;
+
+  &__line {
+    font-size: 2.2rem;
+    @media only screen and (max-width: 400px) {
+      font-size: 1.8rem;
+    }
+  }
+  &__credits {
+    font-size: 1.5rem;
+    @media only screen and (max-width: 400px) {
+      font-size: 1.2rem;
+    }
+    margin: 2rem;
+  }
+}
+
+.link {
+  text-decoration: none;
+  &:link,
+  &:visited {
+    color: cyan;
+  }
+  &:hover,
+  &:active {
+    color: rgb(0, 255, 106);
+  }
 }
