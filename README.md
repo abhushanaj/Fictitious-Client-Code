@@ -12,6 +12,7 @@ The solutions which are present as of now are:
 |------| -----------| -----------| ----------| ----------- |
 1.| Four-Card Challange   | [Details](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Four-Card-Challenge) | [Netlify](https://elastic-cray-4bbc17.netlify.app/)|
 2.| Single-Price Grid Component   | [Details](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/single-price-grid-component) | [Netlify](https://elated-meitner-33ffee.netlify.app/)|
+3.| Fylo-Data-Storage  | [Details](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Fylo-Data-Storage-Component) | [Netlify](https://angry-shirley-605ad6.netlify.app/)|
 
 
 
