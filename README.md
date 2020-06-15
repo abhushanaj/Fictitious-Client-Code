@@ -1,4 +1,10 @@
-UI Challenges
+# UI Challenges
+
+![Github Issues](https://img.shields.io/github/issues/abhu-A-J/UI-Challanges)
+![Github Forks](https://img.shields.io/github/forks/abhu-A-J/UI-Challanges)
+![Github Stars](https://img.shields.io/github/stars/abhu-A-J/UI-Challanges)
+
+
 
 This repository includes the solutions for UI challange found at [Frontend Mentor](https://www.frontendmentor.io)
 
