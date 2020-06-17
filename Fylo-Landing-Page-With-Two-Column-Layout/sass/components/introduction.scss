@@ -1,0 +1,15 @@
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__content {
+    flex: 0 0 50%;
+  }
+  &__images {
+    flex: 0 0 50%;
+    img {
+      max-width: 100%;
+    }
+  }
+}

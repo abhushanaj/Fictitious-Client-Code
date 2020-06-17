@@ -1,0 +1,14 @@
+.link-primary {
+  border-bottom: 1px solid $moderate-cyan;
+  padding-bottom: 5px;
+  font-size: 1.6rem;
+  color: $moderate-cyan;
+  font-weight: $normal;
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+
+  img {
+    margin-left: 1rem;
+  }
+}

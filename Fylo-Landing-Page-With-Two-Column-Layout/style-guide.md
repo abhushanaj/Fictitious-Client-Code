@@ -36,17 +36,7 @@ The designs were created to the following widths:
 - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 - Weights: 400
 
-  Features
-  Team
-  Sign In
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
+ 
 
   Stay productive, wherever you are
 

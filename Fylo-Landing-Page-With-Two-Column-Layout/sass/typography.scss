@@ -14,10 +14,25 @@
 
 .tagline {
   font-size: 1.7rem;
-  color: $very-dark-blue;
+  color: $desaturated-blue;
   text-justify: inter-word;
   margin: 2rem 0;
   @media only screen and(max-width:780px) {
     font-size: 1.2rem;
   }
+}
+
+.sub-heading {
+  font-size: 3.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: $bold;
+  text-justify: inter-word;
+  color: $very-dark-blue;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  color: $desaturated-blue;
+  width: 90%;
 }
