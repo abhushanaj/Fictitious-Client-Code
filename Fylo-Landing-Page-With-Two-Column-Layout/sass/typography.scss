@@ -61,12 +61,21 @@
   font-size: 3rem;
   font-family: "Raleway", sans-serif;
   margin-bottom: 2rem;
+  @media only screen and (max-width: 900px) {
+    text-align: center;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 2.4rem;
+  }
 }
 
 .message {
   font-size: 1.5rem;
   width: 70%;
   color: $light-gray;
-  text-align: justify;
-  text-justify: inter-word;
+  @media only screen and (max-width: 900px) {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
 }
