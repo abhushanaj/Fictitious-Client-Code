@@ -1,7 +1,7 @@
 .u-container {
   max-width: 1200px;
   margin: 0 auto;
-
+ 
   @media only screen and (max-width: 1200px) {
     width: 90%;
     margin: 0 auto;
@@ -10,4 +10,8 @@
     width: 95%;
     margin: 0 auto;
   }
+}
+
+.u-center{
+  text-align: center;
 }

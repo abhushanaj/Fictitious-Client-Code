@@ -139,6 +139,11 @@ ul {
   color: #f6f6fe;
   padding: 10rem 0; }
 
+footer {
+  background-color: #070439;
+  padding: 5rem 0;
+  width: 100%; }
+
 .u-container {
   max-width: 1200px;
   margin: 0 auto; }
@@ -150,6 +155,9 @@ ul {
     .u-container {
       width: 95%;
       margin: 0 auto; } }
+
+.u-center {
+  text-align: center; }
 
 .navbar {
   padding: 3rem 0;
@@ -360,6 +368,9 @@ ul {
   .link-primary img {
     margin-left: 1rem; }
 
+.link {
+  color: #3c9f8f; }
+
 .review {
   margin-top: 3rem;
   box-shadow: 2px 3px 1rem rgba(0, 0, 0, 0.5);
@@ -402,3 +413,47 @@ ul {
     font-size: 1.3rem;
     font-weight: 700;
     font-family: "Open Sans", sans-serif; }
+
+.footer {
+  color: #f6f6fe;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  @media only screen and (max-width: 750px) {
+    .footer {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start; } }
+  @media only screen and (max-width: 750px) {
+    .footer__items {
+      margin: 1rem; } }
+  .footer__item {
+    margin-left: 1rem; }
+    .footer__item a {
+      color: #f8f8fe;
+      font-size: 1.8rem; }
+  .footer__line {
+    padding-top: 10rem;
+    font-size: 2rem;
+    color: #f8f8fe; }
+    @media only screen and (max-width: 600px) {
+      .footer__line {
+        padding-top: 4rem; } }
+  .footer__credits {
+    font-size: 1.4rem;
+    color: #f8f8fe;
+    margin: 1rem 0; }
+
+.social__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  @media only screen and (max-width: 750px) {
+    .social__items {
+      align-self: center; } }
+
+@media only screen and (max-width: 600px) {
+  .footer__logo {
+    width: 8rem;
+    margin-left: 2rem; } }
