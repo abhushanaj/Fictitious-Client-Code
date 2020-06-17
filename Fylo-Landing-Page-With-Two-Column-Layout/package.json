@@ -1,0 +1,15 @@
+{
+  "name": "fylo-landing-page-with-two-column-layout",
+  "version": "1.0.0",
+  "description": "This repository includes the solution for the fylo landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass":"node-sass ./sass/style.scss ./styles/style.css -w"
+  },
+  "author": "Abhushan Adhikari Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
