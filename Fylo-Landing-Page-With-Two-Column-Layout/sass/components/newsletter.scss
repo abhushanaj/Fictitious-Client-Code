@@ -1,0 +1,19 @@
+.newsletter__box {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.email__container {
+  flex: 0 0 70%;
+}
+
+.input-box {
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+  outline: 1px solid black;
+}

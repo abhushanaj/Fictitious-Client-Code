@@ -29,6 +29,10 @@
   &__link {
     color: $desaturated-blue;
     font-size: 1.6rem;
+    &:hover,
+    &:active {
+      color: $very-dark-blue;
+    }
     @media only screen and (max-width: 500px) {
       font-size: 1.4rem;
     }

@@ -26,6 +26,19 @@ a {
 ul {
   list-style: none; }
 
+.main-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-justify: inter-word;
+  color: #070439; }
+
+.tagline {
+  font-size: 1.7rem;
+  color: #070439;
+  text-justify: inter-word;
+  margin: 2rem 0; }
+
 .u-container {
   max-width: 1200px;
   margin: 0 auto; }
@@ -63,6 +76,61 @@ ul {
   .navbar__link {
     color: #585989;
     font-size: 1.6rem; }
+    .navbar__link:hover, .navbar__link:active {
+      color: #070439; }
     @media only screen and (max-width: 500px) {
       .navbar__link {
         font-size: 1.4rem; } }
+
+.herobox {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .herobox__content {
+    flex: 0 0 50%;
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto; }
+  .herobox__image {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .herobox__image img {
+      width: 100%; }
+
+.newsletter__box {
+  display: flex;
+  align-items: center;
+  width: 90%; }
+
+.email__container {
+  flex: 0 0 70%; }
+
+.input-box {
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+  outline: 1px solid black; }
+
+.btn__container {
+  flex: 0 0 30%;
+  align-self: stretch;
+  margin-left: 1rem; }
+
+.btn-primary {
+  border: 0;
+  background-color: #3065f8;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem 2rem;
+  color: #f6f6fe;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  outline: 0;
+  cursor: pointer; }
