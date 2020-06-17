@@ -32,12 +32,21 @@ ul {
   font-family: "Raleway", sans-serif;
   text-justify: inter-word;
   color: #070439; }
+  @media only screen and (max-width: 780px) {
+    .main-heading {
+      font-size: 3rem; } }
+  @media only screen and (max-width: 400px) {
+    .main-heading {
+      font-size: 2.8rem; } }
 
 .tagline {
   font-size: 1.7rem;
   color: #070439;
   text-justify: inter-word;
   margin: 2rem 0; }
+  @media only screen and (max-width: 780px) {
+    .tagline {
+      font-size: 1.2rem; } }
 
 .u-container {
   max-width: 1200px;
@@ -87,16 +96,36 @@ ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
+  @media only screen and (max-width: 1000px) {
+    .herobox {
+      flex-direction: column; } }
   .herobox__content {
     flex: 0 0 50%;
     width: 80%;
     padding: 2rem;
     margin: 0 auto; }
+    @media only screen and (max-width: 1000px) {
+      .herobox__content {
+        order: 2; } }
+    @media only screen and (max-width: 400px) {
+      .herobox__content {
+        width: 100%;
+        text-align: center; } }
   .herobox__image {
     flex: 0 0 50%;
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media only screen and (max-width: 1000px) {
+      .herobox__image {
+        order: 1;
+        width: 60vw; } }
+    @media only screen and (max-width: 500px) {
+      .herobox__image {
+        width: 60vw; } }
+    @media only screen and (max-width: 400px) {
+      .herobox__image {
+        width: 90vw; } }
     .herobox__image img {
       width: 100%; }
 
@@ -104,9 +133,17 @@ ul {
   display: flex;
   align-items: center;
   width: 90%; }
+  @media only screen and (max-width: 630px) {
+    .newsletter__box {
+      flex-direction: column; } }
 
 .email__container {
   flex: 0 0 70%; }
+  @media only screen and (max-width: 630px) {
+    .email__container {
+      width: 100%;
+      margin-bottom: 2rem;
+      flex: 1; } }
 
 .input-box {
   padding: 1rem 1rem;
@@ -121,6 +158,12 @@ ul {
   flex: 0 0 30%;
   align-self: stretch;
   margin-left: 1rem; }
+  @media only screen and (max-width: 630px) {
+    .btn__container {
+      width: 100%;
+      margin-bottom: 2rem;
+      flex: 1;
+      margin-left: 0; } }
 
 .btn-primary {
   border: 0;

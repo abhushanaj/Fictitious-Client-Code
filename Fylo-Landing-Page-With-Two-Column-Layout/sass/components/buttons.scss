@@ -2,6 +2,12 @@
   flex: 0 0 30%;
   align-self: stretch;
   margin-left: 1rem;
+  @media only screen and (max-width: 630px) {
+    width: 100%;
+    margin-bottom: 2rem;
+    flex: 1;
+    margin-left: 0;
+  }
 }
 
 .btn-primary {

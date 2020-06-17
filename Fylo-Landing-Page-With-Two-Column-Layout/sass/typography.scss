@@ -4,6 +4,12 @@
   font-family: "Raleway", sans-serif;
   text-justify: inter-word;
   color: $very-dark-blue;
+  @media only screen and(max-width:780px) {
+    font-size: 3rem;
+  }
+  @media only screen and (max-width: 400px) {
+    font-size: 2.8rem;
+  }
 }
 
 .tagline {
@@ -11,4 +17,7 @@
   color: $very-dark-blue;
   text-justify: inter-word;
   margin: 2rem 0;
+  @media only screen and(max-width:780px) {
+    font-size: 1.2rem;
+  }
 }

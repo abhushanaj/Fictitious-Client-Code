@@ -2,10 +2,18 @@
   display: flex;
   align-items: center;
   width: 90%;
+  @media only screen and (max-width: 630px) {
+    flex-direction: column;
+  }
 }
 
 .email__container {
   flex: 0 0 70%;
+  @media only screen and (max-width: 630px) {
+    width: 100%;
+    margin-bottom: 2rem;
+    flex: 1;
+  }
 }
 
 .input-box {
