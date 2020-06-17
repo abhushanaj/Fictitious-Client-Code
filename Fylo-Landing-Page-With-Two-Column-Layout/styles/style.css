@@ -226,3 +226,34 @@ ul {
   max-width: max-content; }
   .link-primary img {
     margin-left: 1rem; }
+
+.review {
+  margin-top: 3rem;
+  box-shadow: 2px 3px 1rem rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  max-width: 60%; }
+  .review__arrow {
+    width: 2rem; }
+    .review__arrow img {
+      width: 2rem; }
+  .review__content {
+    font-size: 1.4rem; }
+  .review__person {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+
+.person__image {
+  width: 5rem;
+  height: 5rem; }
+  .person__image img {
+    max-width: 5rem;
+    border-radius: 50%; }
+
+.person__details {
+  margin-left: 2rem; }
+  .person__details p:first-child {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif; }

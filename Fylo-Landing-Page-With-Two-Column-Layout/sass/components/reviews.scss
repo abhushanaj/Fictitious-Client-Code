@@ -1,0 +1,43 @@
+.review {
+  margin-top: 3rem;
+  box-shadow: 2px 3px 1rem rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  max-width: 60%;
+  &__arrow {
+    width: 2rem;
+    img {
+      width: 2rem;
+    }
+  }
+  &__content {
+    font-size: 1.4rem;
+  }
+
+  &__person {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.person {
+  &__image {
+    width: 5rem;
+    height: 5rem;
+    img {
+      max-width: 5rem;
+      border-radius: 50%;
+    }
+  }
+  &__details {
+    margin-left: 2rem;
+    p {
+      &:first-child {
+        font-size: 1.3rem;
+        font-weight: $bold;
+        font-family: "Open Sans", sans-serif;
+      }
+    }
+  }
+}
