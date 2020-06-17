@@ -81,6 +81,18 @@ ul {
       text-align: center;
       font-size: 1.2rem; } }
 
+.tertiary-heading {
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 2rem; }
+
+.message {
+  font-size: 1.5rem;
+  width: 70%;
+  color: #bfbfbf;
+  text-align: justify;
+  text-justify: inter-word; }
+
 .curve-decoration-big,
 .curver-decoration-small {
   margin-top: 10rem;
@@ -112,6 +124,11 @@ ul {
   @media only screen and (max-width: 500px) {
     .intro-section {
       transform: translateY(-5px); } }
+
+.newsletter {
+  background: #585989;
+  color: #f6f6fe;
+  padding: 10rem 0; }
 
 .u-container {
   max-width: 1200px;
@@ -219,6 +236,30 @@ ul {
   border: 0;
   outline: 1px solid black; }
 
+.newsletter__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.newsletter__message {
+  flex: 0 0 50%; }
+
+.newsletter__cta {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 7rem; }
+
+.email__group {
+  width: 90%; }
+  .email__group input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    outline: 0; }
+
 .btn__container {
   flex: 0 0 30%;
   align-self: stretch;
@@ -242,6 +283,13 @@ ul {
   border-radius: 2px;
   outline: 0;
   cursor: pointer; }
+
+.btn__group {
+  margin-top: 2rem; }
+
+.btn-primary .btn-signup {
+  width: 60%;
+  text-align: left; }
 
 .intro {
   display: flex;
