@@ -54,12 +54,32 @@ ul {
   font-weight: 700;
   text-justify: inter-word;
   color: #070439; }
+  @media only screen and (max-width: 800px) {
+    .sub-heading {
+      text-align: center;
+      font-size: 2.7rem; } }
+  @media only screen and (max-width: 500px) {
+    .sub-heading {
+      text-align: center;
+      font-size: 2rem; } }
+  @media only screen and (max-width: 400px) {
+    .sub-heading {
+      text-align: center;
+      font-size: 1.7rem; } }
 
 .paragraph {
   font-size: 1.6rem;
   margin: 1rem 0;
   color: #585989;
   width: 90%; }
+  @media only screen and (max-width: 500px) {
+    .paragraph {
+      font-size: 1.4rem;
+      text-align: left; } }
+  @media only screen and (max-width: 400px) {
+    .paragraph {
+      text-align: center;
+      font-size: 1.2rem; } }
 
 .curve-decoration-big {
   margin-top: 10rem;
@@ -208,10 +228,24 @@ ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
+  @media only screen and (max-width: 800px) {
+    .intro {
+      flex-direction: column; } }
   .intro__content {
     flex: 0 0 50%; }
+    @media only screen and (max-width: 800px) {
+      .intro__content {
+        order: 2;
+        flex: 1;
+        width: 80vw;
+        margin-top: 10rem; } }
   .intro__images {
     flex: 0 0 50%; }
+    @media only screen and (max-width: 800px) {
+      .intro__images {
+        order: 1;
+        flex: 1;
+        width: 60vw; } }
     .intro__images img {
       max-width: 100%; }
 
@@ -224,6 +258,9 @@ ul {
   display: flex;
   align-items: center;
   max-width: max-content; }
+  @media only screen and (max-width: 800px) {
+    .link-primary {
+      margin: 0 auto; } }
   .link-primary img {
     margin-left: 1rem; }
 
@@ -231,13 +268,25 @@ ul {
   margin-top: 3rem;
   box-shadow: 2px 3px 1rem rgba(0, 0, 0, 0.5);
   padding: 3rem;
-  max-width: 60%; }
+  width: 60%; }
+  @media only screen and (max-width: 800px) {
+    .review {
+      margin: 3rem auto;
+      width: 80%; } }
+  @media only screen and (max-width: 500px) {
+    .review {
+      width: 90%;
+      margin: 3rem auto;
+      padding: 2.2rem; } }
   .review__arrow {
     width: 2rem; }
     .review__arrow img {
       width: 2rem; }
   .review__content {
     font-size: 1.4rem; }
+    @media only screen and (max-width: 500px) {
+      .review__content {
+        font-size: 1.2rem; } }
   .review__person {
     margin-top: 2rem;
     display: flex;

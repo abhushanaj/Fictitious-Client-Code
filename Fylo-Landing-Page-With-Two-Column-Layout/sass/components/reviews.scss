@@ -2,7 +2,16 @@
   margin-top: 3rem;
   box-shadow: 2px 3px 1rem rgba(0, 0, 0, 0.5);
   padding: 3rem;
-  max-width: 60%;
+  width: 60%;
+  @media only screen and (max-width: 800px) {
+    margin: 3rem auto;
+    width: 80%;
+  }
+  @media only screen and (max-width: 500px) {
+    width: 90%;
+    margin: 3rem auto;
+    padding: 2.2rem;
+  }
   &__arrow {
     width: 2rem;
     img {
@@ -11,6 +20,9 @@
   }
   &__content {
     font-size: 1.4rem;
+    @media only screen and (max-width: 500px) {
+      font-size: 1.2rem;
+    }
   }
 
   &__person {
