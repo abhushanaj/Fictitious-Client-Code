@@ -81,18 +81,37 @@ ul {
       text-align: center;
       font-size: 1.2rem; } }
 
-.curve-decoration-big {
+.curve-decoration-big,
+.curver-decoration-small {
   margin-top: 10rem;
   max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .curve-decoration-big img {
+  .curve-decoration-big img,
+  .curver-decoration-small img {
     max-width: 100%; }
+
+@media only screen and (max-width: 500px) {
+  .curve-decoration-big {
+    display: none; } }
+
+.curve-decoration-small {
+  display: none; }
+  @media only screen and (max-width: 500px) {
+    .curve-decoration-small {
+      display: block;
+      width: 100vw;
+      align-self: stretch; }
+      .curve-decoration-small img {
+        max-width: 100%; } }
 
 .intro-section {
   background: #f8f8fe;
   padding: 4rem 0; }
+  @media only screen and (max-width: 500px) {
+    .intro-section {
+      transform: translateY(-5px); } }
 
 .u-container {
   max-width: 1200px;
