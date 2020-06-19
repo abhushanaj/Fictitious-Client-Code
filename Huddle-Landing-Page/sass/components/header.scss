@@ -1,0 +1,15 @@
+.landing-header {
+  background: url("../images/bg-desktop.svg");
+  background-color: $violet;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 4rem 0;
+}
+
+.logo-box {
+  width: 20rem;
+  img {
+    max-width: 100%;
+  }
+}

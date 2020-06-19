@@ -1,0 +1,20 @@
+footer {
+  background: rgb(29, 29, 29);
+  color: $white;
+}
+
+.footer {
+  padding: 2rem 0;
+
+  &__line {
+    font-size: 2rem;
+  }
+  &__credits {
+    font-size: 1.3rem;
+    margin: 2rem 0;
+  }
+}
+
+.link {
+  color: rgb(8, 153, 163);
+}

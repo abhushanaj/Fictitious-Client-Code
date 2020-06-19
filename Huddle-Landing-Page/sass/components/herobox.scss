@@ -1,0 +1,24 @@
+.herobox {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__content {
+    flex: 0 0 40%;
+    // background-color: yellow;
+    padding: 10rem 2rem;
+    align-self: flex-start;
+  }
+  &__image {
+    flex: 0 0 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: pink;
+    padding: 2.5rem;
+    img {
+      max-width: 100%;
+    }
+  }
+}

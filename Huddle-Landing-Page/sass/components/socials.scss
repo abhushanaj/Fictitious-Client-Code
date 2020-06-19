@@ -1,0 +1,14 @@
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &__items {
+    margin: 0 2rem;
+  }
+  &__item {
+    img {
+      width: 3rem;
+    }
+  }
+}
