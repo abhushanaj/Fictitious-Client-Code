@@ -48,7 +48,8 @@ a {
 
 .u-container {
   width: 1140px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow-x: hidden; }
   @media only screen and (max-width: 1140px) {
     .u-container {
       width: 90%; } }
@@ -139,11 +140,13 @@ a {
       transform: translateX(-50%); } }
   @media only screen and (max-width: 450px) {
     .btn-primary {
-      width: 70%; } }
+      display: block;
+      width: 60%;
+      margin-left: 50%;
+      transform: translateX(-50%); } }
   .btn-primary:hover {
     background: #adacac;
-    color: #674baf;
-    transform: scale(1.05); }
+    color: #674baf; }
 
 .social {
   display: flex;
@@ -162,7 +165,8 @@ a {
 
 footer {
   background: #1d1d1d;
-  color: #fff; }
+  color: #fff;
+  max-width: 100%; }
 
 .footer {
   padding: 2rem 0; }

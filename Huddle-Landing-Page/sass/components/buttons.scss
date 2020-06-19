@@ -15,12 +15,14 @@
     transform: translateX(-50%);
   }
   @media only screen and (max-width: 450px) {
-    width: 70%;
+    display: block;
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
- 
+
   &:hover {
     background: rgb(173, 172, 172);
     color: rgba($violet, 1);
-    transform: scale(1.05);
   }
 }
