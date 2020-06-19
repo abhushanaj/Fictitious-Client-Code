@@ -2,6 +2,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  @media only screen and (max-width: 1140px) {
+    justify-content: center;
+  }
+  @media only screen and (max-width: 450px) {
+    margin-top: 4rem;
+  }
 
   &__items {
     margin: 0 2rem;

@@ -5,6 +5,16 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 4rem 0;
+  @media only screen and (max-width: 1140px) {
+    background-size: cover;
+  }
+  @media only screen and (max-width: 700px) {
+    background: url("../images/bg-mobile.svg");
+    background-color: $violet;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .logo-box {
