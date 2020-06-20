@@ -1,0 +1,28 @@
+.form__container {
+  background: $white;
+  margin-top: 3rem;
+  border-radius: 0.8rem;
+  padding: 2rem 0rem;
+}
+
+.form {
+  padding: 2rem;
+}
+
+.input__group {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.input__value {
+  padding: 1rem 2.5rem;
+  border: 1px solid $grayish-blue;
+  outline: none;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: $bold;
+  color: $dark-blue;
+  border-radius: 0.6rem;
+  margin-top: 2rem;
+}

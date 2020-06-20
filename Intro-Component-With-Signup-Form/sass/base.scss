@@ -15,4 +15,12 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: $normal;
   box-sizing: border-box;
+  background: url("../images/bg-intro-desktop.png");
+  background-color: $red;
+  background-position: center;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
 }

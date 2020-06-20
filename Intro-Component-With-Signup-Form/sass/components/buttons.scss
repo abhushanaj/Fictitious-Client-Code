@@ -1,0 +1,20 @@
+.btn__group {
+  margin: 1rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+.btn-submit {
+  background: $green;
+  width: 100%;
+  padding: 1.3rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  color: $white;
+  text-transform: uppercase;
+  border-radius: 0.6rem;
+  border: 0;
+  font-weight: $medium;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  box-shadow: 1px 4px 1px rgba($dark-green, 0.9);
+}
