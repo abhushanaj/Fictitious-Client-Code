@@ -14,4 +14,12 @@
       color: rgba($white, 0.8);
     }
   }
+
+  &__error {
+    color: $red;
+    text-align: right;
+    margin-top: 5px;
+  }
+
+  
 }

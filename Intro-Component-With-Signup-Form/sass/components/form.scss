@@ -12,6 +12,7 @@
 .input__group {
   width: 90%;
   margin: 0 auto;
+  position: relative;
 }
 
 .input__value {
@@ -25,4 +26,16 @@
   color: $dark-blue;
   border-radius: 0.6rem;
   margin-top: 2rem;
+  &--error {
+    border: 2px solid $red;
+  }
+}
+
+.input__error-icon {
+  width: 2rem;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  z-index: 4;
+  transform: translateY(-50%);
 }

@@ -69,6 +69,10 @@ a {
     .toast__message span {
       font-weight: 400;
       color: rgba(255, 255, 255, 0.8); }
+  .toast__error {
+    color: #ff7a7a;
+    text-align: right;
+    margin-top: 5px; }
 
 .herobox {
   display: flex;
@@ -93,7 +97,8 @@ a {
 
 .input__group {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
 .input__value {
   padding: 1rem 2.5rem;
@@ -106,6 +111,16 @@ a {
   color: #3e3c49;
   border-radius: 0.6rem;
   margin-top: 2rem; }
+  .input__value--error {
+    border: 2px solid #ff7a7a; }
+
+.input__error-icon {
+  width: 2rem;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  z-index: 4;
+  transform: translateY(-50%); }
 
 .btn__group {
   margin: 1rem;
