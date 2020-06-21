@@ -40,38 +40,46 @@
             </p>
           </div>
           <div class="form__container">
-            <form action="#" classs="form">
+            <form action="#" class="form" id="form">
               <div class="input__group">
                 <input
                   type="text"
                   placeholder="First Name"
                   class="input__value"
                   name="firstName"
-                  required
                 />
                 <img src="./images/icon-error.svg" alt="Error Icon" class="input__error-icon">
-                <p class="toast__error">First Name cannot be empty</p>
+                <p class="toast__error"></p>
               </div>
               <div class="input__group">
                 <input
                   type="text"
                   placeholder="Last Name"
                   class="input__value"
+                  name="lastName"
                 />
+                <img src="./images/icon-error.svg" alt="Error Icon" class="input__error-icon">
+                <p class="toast__error"></p>
               </div>
               <div class="input__group">
                 <input
                   type="text"
                   placeholder="Email Address"
                   class="input__value"
+                  name="emailID"
                 />
+                <img src="./images/icon-error.svg" alt="Error Icon" class="input__error-icon">
+                <p class="toast__error"></p>
               </div>
               <div class="input__group">
                 <input
-                  type="text"
+                  type="password"
                   placeholder="Password"
                   class="input__value"
+                  name="password"
                 />
+                <img src="./images/icon-error.svg" alt="Error Icon" class="input__error-icon">
+                <p class="toast__error"></p>
               </div>
               <div class="btn__group">
                 <button type="submit" class="btn-submit" value="Claim your">
@@ -87,5 +95,6 @@
         </div>
       </header>
     </main>
+    <script defer src="./scripts/index.js"></script>
   </body>
 </html>

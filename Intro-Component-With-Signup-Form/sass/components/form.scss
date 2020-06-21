@@ -5,10 +5,6 @@
   padding: 2rem 0rem;
 }
 
-.form {
-  padding: 2rem;
-}
-
 .input__group {
   width: 90%;
   margin: 0 auto;
@@ -38,4 +34,5 @@
   right: 1rem;
   z-index: 4;
   transform: translateY(-50%);
+  opacity: 0;
 }
