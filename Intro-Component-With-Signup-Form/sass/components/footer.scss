@@ -1,0 +1,19 @@
+footer {
+  background: $dark-blue;
+  padding: 3rem 0;
+  color: $white;
+}
+
+.footer {
+  &__line {
+    font-size: 2.2rem;
+  }
+  &__credits {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+  }
+}
+
+.link {
+  color: $green;
+}
