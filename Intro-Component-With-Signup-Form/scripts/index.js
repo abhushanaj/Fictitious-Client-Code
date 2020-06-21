@@ -33,12 +33,7 @@ const removeErrorMessageOn = (attribute) => {
 };
 
 
-const resetForm = () => {
-    form["firstName"].value="";
-     form["lastName"].value="";
-   form["emailID"].value="";
-    form["password"].value="";
-}
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -75,6 +70,5 @@ form.addEventListener("submit", (event) => {
         removeErrorMessageOn("password");
     }
 
-    // all validations are completed
-    resetForm();
+    
 });
