@@ -1,0 +1,14 @@
+.main-heading {
+  text-transform: uppercase;
+  font-weight: $light;
+  color: $desaturated-red;
+  letter-spacing: 10px;
+  font-size: 6rem;
+  width: 70%;
+  span {
+    display: block;
+    margin: 0;
+    font-weight: $bold;
+    color: $dark-grayish-red;
+  }
+}

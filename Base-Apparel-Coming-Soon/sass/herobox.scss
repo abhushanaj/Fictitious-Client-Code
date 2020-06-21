@@ -1,0 +1,30 @@
+.herobox {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+
+  &__content {
+    flex: 0 0 60%;
+    min-height: 100vh;
+    background: url("../images/bg-pattern-desktop.svg"), $gradient-1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__image {
+    flex: 0 0 40%;
+    min-height: 100vh;
+    background: url("../images/hero-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    img {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
