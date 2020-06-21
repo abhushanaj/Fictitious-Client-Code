@@ -1,0 +1,42 @@
+.input {
+  &__group {
+    width: 70%;
+    margin-top: 2rem;
+    position: relative;
+  }
+
+  &__value {
+    width: 100%;
+    padding: 2rem 3rem;
+    border-radius: 3rem;
+    border: 1px solid $desaturated-red;
+    outline: 0;
+    font-family: "Josefin Sans", sans-serif;
+    color: $dark-grayish-red;
+    font-weight: $bold;
+    &--error {
+      border: 2px solid $soft-red;
+    }
+    &::placeholder {
+      color: rgba($desaturated-red, 0.6);
+    }
+  }
+
+  &__error {
+    font-size: 1.3rem;
+    display: block;
+    padding-left: 2.6rem;
+    color: $soft-red;
+    margin-top: 1rem;
+    opacity:0;
+  }
+
+  &__error-icon {
+    position: absolute;
+    top: 30%;
+    right: 5rem;
+    transform: translateY(-30%);
+    width: 2rem;
+    display:inline-block;
+  }
+}

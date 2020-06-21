@@ -33,6 +33,12 @@ body {
     font-weight: 600;
     color: #413a3a; }
 
+.tagline {
+  font-size: 1.6rem;
+  color: #ce9797;
+  margin-top: 2rem;
+  width: 80%; }
+
 .u-container {
   max-width: 1200px;
   margin: 0 auto; }
@@ -73,3 +79,55 @@ body {
 .main {
   margin-top: 8rem;
   line-height: 1.2; }
+
+.input__group {
+  width: 70%;
+  margin-top: 2rem;
+  position: relative; }
+
+.input__value {
+  width: 100%;
+  padding: 2rem 3rem;
+  border-radius: 3rem;
+  border: 1px solid #ce9797;
+  outline: 0;
+  font-family: "Josefin Sans", sans-serif;
+  color: #413a3a;
+  font-weight: 600; }
+  .input__value--error {
+    border: 2px solid #f96262; }
+  .input__value::placeholder {
+    color: rgba(206, 151, 151, 0.6); }
+
+.input__error {
+  font-size: 1.3rem;
+  display: block;
+  padding-left: 2.6rem;
+  color: #f96262;
+  margin-top: 1rem;
+  opacity: 0; }
+
+.input__error-icon {
+  position: absolute;
+  top: 30%;
+  right: 5rem;
+  transform: translateY(-30%);
+  width: 2rem;
+  display: inline-block; }
+
+.btn-primary {
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  padding: 1.6rem 4rem;
+  border-radius: 3rem;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: -2rem;
+  z-index: 2; }
+  .btn-primary:focus {
+    outline: 0; }
+
+.btn--translate {
+  transform: translateX(3rem); }
