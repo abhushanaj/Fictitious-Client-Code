@@ -26,7 +26,6 @@ Your users should be able to:
 	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
 
-
 ## Where to find everything
 
 Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
@@ -41,8 +40,8 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 
 ## Deployed Solution
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8751e251-2802-421c-b6bc-a43d045e1125/deploy-status)](https://app.netlify.com/sites/adoring-dijkstra-dd76ee/deploys)
+
+Preview Here: https://adoring-dijkstra-dd76ee.netlify.app/
+
 **Have fun building!** 🚀
-
-
-
-
