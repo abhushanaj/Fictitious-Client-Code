@@ -1,0 +1,26 @@
+.main-heading {
+  font-size: 4rem;
+  color: $gray;
+  font-weight: $light;
+  text-align: center;
+
+  span {
+    color: $very-dark-blue;
+    font-weight: $bold;
+  }
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.5rem;
+  color: $very-dark-blue;
+  font-weight: $light;
+}
+
+.copyright {
+  text-align: center;
+  margin: 2rem 0;
+  color: $gray;
+  font-size: 1.3rem;
+  font-weight:$light;
+}

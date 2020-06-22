@@ -1,0 +1,13 @@
+.herobox {
+  margin-top: 3rem;
+
+  &__image {
+    // width:50%;
+    margin: 2rem auto;
+    background-color: yellowgreen;
+    padding: 2rem;
+    img {
+      max-width: 100%;
+    }
+  }
+}

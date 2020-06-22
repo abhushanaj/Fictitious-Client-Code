@@ -1,0 +1,47 @@
+.input {
+  &__group {
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  &__value {
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    outline: 0;
+    border: 1px solid $gray;
+    font-family: "Libre Franklin", sans-serif;
+    flex: 0 0 60%;
+
+    &--error{
+        border: 2px solid $light-red;
+    }
+  }
+}
+
+.btn-newsletter {
+  background: $blue;
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: $white;
+  flex: 0 0 30%;
+  border: 0;
+  outline: 0;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: "Libre Franklin", sans-serif;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+  &:focus {
+    outline: 0;
+  }
+}
+
+.error__message {
+  color: $light-red;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding-left: 5rem;
+  font-weight: $light;
+}
