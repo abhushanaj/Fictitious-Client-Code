@@ -22,7 +22,7 @@ The solutions which are present as of now are:
 4.| Fylo-Landing-Page-With-Two-Column-Layout  | [Details](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Fylo-Landing-Page-With-Two-Column-Layout) | [Netlify](https://boring-mccarthy-dd0ca8.netlify.app/)|
 5.| Huddle-Landing-Page  | [Details](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Huddle-Landing-Page) | [Netlify](https://happy-panini-ae52a6.netlify.app/)|
 6.| Intro-Component-With-Signup-Form  | [Details](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Intro-Component-With-Signup-Form) | [Netlify](https://clever-lamarr-dad858.netlify.app/)|
-7.| Base-Apparel-Coming-Soon  | [Details](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) | [Folder_link]https://github.com/abhu-A-J/UI-Challanges/tree/master/Base-Apparel-Coming-Soon) | [Netlify](https://affectionate-heyrovsky-bb0c03.netlify.app/)|
+7.| Base-Apparel-Coming-Soon  | [Details](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Base-Apparel-Coming-Soon) | [Netlify](https://affectionate-heyrovsky-bb0c03.netlify.app/)|
 
 
 
