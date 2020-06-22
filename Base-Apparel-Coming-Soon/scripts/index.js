@@ -17,7 +17,7 @@ submitButton.addEventListener("click", (event) => {
     parentNode.querySelector(".input__error").style.opacity = 1;
     parentNode.querySelector(".btn-primary").classList.add("btn--translate");
   } else {
-    emailID.value = "";
+      newsletter.value = "";
     newsletter.classList.remove("input__value--error");
     const parentNode = newsletter.parentNode;
     parentNode.querySelector(".input__error").style.opacity = 0;
