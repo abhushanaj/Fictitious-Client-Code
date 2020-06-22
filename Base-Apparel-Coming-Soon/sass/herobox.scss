@@ -1,30 +1,81 @@
 .herobox {
-  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  min-height: 100vh;
+  @media only screen and (max-width: 840px) {
+    flex-direction: column;
+  }
 
   &__content {
     flex: 0 0 60%;
-    min-height: 100vh;
     background: url("../images/bg-pattern-desktop.svg"), $gradient-1;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    min-height: 100vh;
+    @media only screen and (max-width: 1024px) {
+    }
+    @media only screen and (max-width: 840px) {
+      flex: 1;
+      margin: 0 auto;
+      order: 2;
+      min-height: max-content;
+    }
   }
 
-  &__image {
+  &__image--desktop {
     flex: 0 0 40%;
     min-height: 100vh;
     background: url("../images/hero-desktop.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    img {
-      object-fit: cover;
-      object-position: center;
+    @media only screen and(max-width:840px) {
+      display: none;
     }
+  }
+}
+
+.logo-box {
+  position: absolute;
+  top: 5rem;
+  left: 15rem;
+  @media only screen and (max-width: 1024px) {
+    left: 5rem;
+  }
+  @media only screen and(max-width:780px) {
+    left: 10rem;
+  }
+  @media only screen and(max-width:600px) {
+    left: 5rem;
+  }
+  @media only screen and(max-width:500px) {
+    width: 13rem;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+.herobox__image--mobile {
+  min-width: 100vw;
+  min-height: 60vh;
+  background: url("../images/hero-mobile.jpg");
+  margin-top: 15rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+  @media only screen and (min-width: 840px) {
+    display: none;
+  }
+  @media only screen and(max-width:530px) {
+    margin-top: 12rem;
+  }
+  @media only screen and(max-width:400px) {
+    margin-top: 15rem;
+    background-size: cover;
+    min-height: 40vh;
   }
 }

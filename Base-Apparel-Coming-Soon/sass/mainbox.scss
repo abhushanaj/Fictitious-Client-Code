@@ -1,6 +1,27 @@
 .main {
-  margin-top: 8rem;
+  margin-top: 12rem;
   line-height: 1.2;
+  
+  @media only screen and(max-width:1024px) {
+    margin-top: 15rem;
+  }
+  @media only screen and(max-width:900px) {
+    margin-top: 20rem;
+  }
+  @media only screen and(max-width:840px) {
+    margin-top: 10rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+  @media only screen and(max-width:780px) {
+    width: 90%;
+  }
+
+  @media only screen and(max-width:600px) {
+    width: 100%;
+  }
+  @media only screen and(max-width:400px) {
+    margin-top: 5rem;
+    
+  }
 }
-
-
