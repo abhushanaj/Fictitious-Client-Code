@@ -115,8 +115,7 @@ body {
     background: url("../images/hero-desktop.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background: pink; }
+    background-repeat: no-repeat; }
     @media only screen and (max-width: 840px) {
       .herobox__image--desktop {
         display: none; } }
