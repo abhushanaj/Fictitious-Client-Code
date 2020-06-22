@@ -1,0 +1,21 @@
+footer {
+  background: $very-dark-blue;
+  padding: 2rem 0;
+}
+
+.footer {
+  color: $white;
+  &__line {
+    font-size: 2.2rem;
+  }
+
+  &__credits {
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+}
+
+
+.link{
+    color:$pale-blue;
+}

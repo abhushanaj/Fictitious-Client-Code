@@ -13,7 +13,7 @@ html {
 body {
   line-height: 1.5;
   font-family: 'Libre Franklin', sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   box-sizing: border-box; }
 
 a {
@@ -24,8 +24,7 @@ ul {
 
 .u-container {
   max-width: 120rem;
-  margin: 0 auto;
-  background-color: pink; }
+  margin: 0 auto; }
 
 .u-center {
   text-align: center; }
@@ -124,3 +123,18 @@ ul {
     justify-content: center; }
   .social__item img {
     width: 3rem; }
+
+footer {
+  background: #151f29;
+  padding: 2rem 0; }
+
+.footer {
+  color: #fff; }
+  .footer__line {
+    font-size: 2.2rem; }
+  .footer__credits {
+    font-size: 1.3rem;
+    margin: 1rem; }
+
+.link {
+  color: #c2d3ff; }
