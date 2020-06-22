@@ -32,8 +32,17 @@ ul {
 .u-70 {
   width: 60%;
   margin: 0 auto;
-  padding: 2rem 4rem;
-  background-color: yellow; }
+  padding: 2rem 4rem; }
+  @media only screen and (max-width: 870px) {
+    .u-70 {
+      width: 80%; } }
+  @media only screen and (max-width: 650px) {
+    .u-70 {
+      width: 90%; } }
+  @media only screen and (max-width: 570px) {
+    .u-70 {
+      width: 100%;
+      padding: 2rem; } }
 
 .logo-box {
   margin: 0 auto;
@@ -45,6 +54,9 @@ ul {
   color: #969696;
   font-weight: 300;
   text-align: center; }
+  @media only screen and (max-width: 570px) {
+    .main-heading {
+      font-size: 3rem; } }
   .main-heading span {
     color: #151f29;
     font-weight: 700; }
@@ -66,7 +78,6 @@ ul {
   margin-top: 3rem; }
   .herobox__image {
     margin: 2rem auto;
-    background-color: yellowgreen;
     padding: 2rem; }
     .herobox__image img {
       max-width: 100%; }
@@ -78,6 +89,9 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 0; }
+  @media only screen and (max-width: 650px) {
+    .input__group {
+      flex-direction: column; } }
 
 .input__value {
   padding: 1rem 3rem;
@@ -86,6 +100,12 @@ ul {
   border: 1px solid #969696;
   font-family: "Libre Franklin", sans-serif;
   flex: 0 0 60%; }
+  @media only screen and (max-width: 650px) {
+    .input__value {
+      width: 60%; } }
+  @media only screen and (max-width: 570px) {
+    .input__value {
+      width: 80%; } }
   .input__value--error {
     border: 2px solid #ff5263; }
 
@@ -101,6 +121,13 @@ ul {
   cursor: pointer;
   font-family: "Libre Franklin", sans-serif;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5); }
+  @media only screen and (max-width: 650px) {
+    .btn-newsletter {
+      width: 60%;
+      margin-top: 1rem; } }
+  @media only screen and (max-width: 570px) {
+    .btn-newsletter {
+      width: 80%; } }
   .btn-newsletter:focus {
     outline: 0; }
 
@@ -110,6 +137,10 @@ ul {
   margin-top: 1rem;
   padding-left: 5rem;
   font-weight: 300; }
+  @media only screen and (max-width: 650px) {
+    .error__message {
+      text-align: center;
+      padding-left: 0; } }
 
 .social {
   max-width: max-content;
