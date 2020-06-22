@@ -1,24 +1,29 @@
-*,*::after,*::before{
-    margin:0;
-    padding:0;
-    box-sizing: inherit;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-html{
-    font-size:62.5%; 
+html {
+  font-size: 62.5%;
+  @media only screen and(min-width:1440px) {
+    font-size: 72%;
+  }
 }
 
-body{
-    line-height: 1.5;
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight:$light;
-    box-sizing: border-box;
+body {
+  line-height: 1.5;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: $light;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }

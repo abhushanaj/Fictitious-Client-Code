@@ -2,17 +2,22 @@
 /* Secondary Colors*/
 /* Neutral Colors */
 /* Font Weight */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit; }
 
 html {
   font-size: 62.5%; }
+  @media only screen and (min-width: 1440px) {
+    html {
+      font-size: 72%; } }
 
 body {
   line-height: 1.5;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
   box-sizing: border-box; }
 
@@ -25,6 +30,10 @@ ul {
 .u-container {
   max-width: 120rem;
   margin: 0 auto; }
+  @media only screen and (min-width: 1440px) {
+    .u-container {
+      max-width: 144rem;
+      background: pink; } }
 
 .u-center {
   text-align: center; }
