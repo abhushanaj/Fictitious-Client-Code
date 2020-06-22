@@ -6,26 +6,52 @@
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 0;
+    position: relative;
     @media only screen and(max-width:650px) {
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &--cta {
+      flex: 0 0 60%;
+      @media only screen and(max-width:650px) {
+        width: 70%;
+        margin: 0 auto;
+      }
+      @media only screen and(max-width:400px) {
+        width: 90%;
+      }
     }
   }
+
   &__value {
     padding: 1rem 3rem;
     border-radius: 2rem;
     outline: 0;
     border: 1px solid $gray;
     font-family: "Libre Franklin", sans-serif;
-    flex: 0 0 60%;
+    width: 100%;
     @media only screen and(max-width:650px) {
-      width: 60%;
+      width: 100%;
     }
     @media only screen and(max-width:570px) {
-      width: 80%;
+      width: 100%;
     }
     &--error {
       border: 2px solid $light-red;
     }
+  }
+}
+
+.btn--container {
+  flex: 0 0 30%;
+  align-self: flex-start;
+  @media only screen and(max-width:650px) {
+    width: 70%;
+    margin: 0 auto;
+  }
+  @media only screen and(max-width:400px) {
+    width: 90%;
   }
 }
 
@@ -34,19 +60,22 @@
   padding: 1rem;
   font-size: 1.4rem;
   color: $white;
-  flex: 0 0 30%;
+  height: 100%;
   border: 0;
   outline: 0;
   border-radius: 2rem;
   cursor: pointer;
+  align-items: stretch;
   font-family: "Libre Franklin", sans-serif;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+
   @media only screen and(max-width:650px) {
-    width: 60%;
+    width: 100%;
     margin-top: 1rem;
   }
   @media only screen and(max-width:570px) {
-    width: 80%;
+    width: 100%;
   }
   &:focus {
     outline: 0;
@@ -56,9 +85,10 @@
 .error__message {
   color: $light-red;
   font-size: 1.2rem;
-  margin-top: 1rem;
-  padding-left: 5rem;
+  margin-top: 0.4rem;
+  padding-left: 3rem;
   font-weight: $light;
+
   @media only screen and(max-width:650px) {
     text-align: center;
     padding-left: 0;
