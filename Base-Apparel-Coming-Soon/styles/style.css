@@ -14,6 +14,9 @@ html {
   @media only screen and (max-width: 900px) {
     html {
       font-size: 56%; } }
+  @media only screen and (min-width: 1440px) {
+    html {
+      font-size: 70%; } }
 
 body {
   line-height: 1.5;
@@ -112,10 +115,30 @@ body {
     background: url("../images/hero-desktop.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background: pink; }
     @media only screen and (max-width: 840px) {
       .herobox__image--desktop {
         display: none; } }
+  .herobox__image--mobile {
+    min-width: 100vw;
+    min-height: 60vh;
+    background: url("../images/hero-mobile.jpg");
+    margin-top: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+    @media only screen and (min-width: 840px) {
+      .herobox__image--mobile {
+        display: none; } }
+    @media only screen and (max-width: 530px) {
+      .herobox__image--mobile {
+        margin-top: 12rem; } }
+    @media only screen and (max-width: 400px) {
+      .herobox__image--mobile {
+        margin-top: 15rem;
+        background-size: cover;
+        min-height: 40vh; } }
 
 .logo-box {
   position: absolute;
@@ -135,26 +158,6 @@ body {
       width: 13rem; } }
   .logo-box img {
     max-width: 100%; }
-
-.herobox__image--mobile {
-  min-width: 100vw;
-  min-height: 60vh;
-  background: url("../images/hero-mobile.jpg");
-  margin-top: 15rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain; }
-  @media only screen and (min-width: 840px) {
-    .herobox__image--mobile {
-      display: none; } }
-  @media only screen and (max-width: 530px) {
-    .herobox__image--mobile {
-      margin-top: 12rem; } }
-  @media only screen and (max-width: 400px) {
-    .herobox__image--mobile {
-      margin-top: 15rem;
-      background-size: cover;
-      min-height: 40vh; } }
 
 .main {
   margin-top: 12rem;
@@ -221,6 +224,9 @@ body {
   transform: translateY(-30%);
   width: 2rem;
   display: inline-block; }
+  @media only screen and (max-width: 400px) {
+    .input__error-icon {
+      right: 4rem; } }
 
 .btn-primary {
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c);

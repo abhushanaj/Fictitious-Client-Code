@@ -31,10 +31,33 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background:pink;
     @media only screen and(max-width:840px) {
       display: none;
     }
+  
   }
+  &__image--mobile {
+  min-width: 100vw;
+  min-height: 60vh;
+  background: url("../images/hero-mobile.jpg");
+  margin-top: 15rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+  @media only screen and (min-width: 840px) {
+    display: none;
+  }
+  @media only screen and(max-width:530px) {
+    margin-top: 12rem;
+  }
+  @media only screen and(max-width:400px) {
+    margin-top: 15rem;
+    background-size: cover;
+    min-height: 40vh;
+  }
+}
 }
 
 .logo-box {
@@ -58,24 +81,3 @@
   }
 }
 
-.herobox__image--mobile {
-  min-width: 100vw;
-  min-height: 60vh;
-  background: url("../images/hero-mobile.jpg");
-  margin-top: 15rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  
-  @media only screen and (min-width: 840px) {
-    display: none;
-  }
-  @media only screen and(max-width:530px) {
-    margin-top: 12rem;
-  }
-  @media only screen and(max-width:400px) {
-    margin-top: 15rem;
-    background-size: cover;
-    min-height: 40vh;
-  }
-}
