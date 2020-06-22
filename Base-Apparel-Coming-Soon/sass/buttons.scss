@@ -1,6 +1,6 @@
 .btn-primary {
   background: $gradient-2;
-  padding: 1.6rem 4rem;
+  padding: 1.8rem 4rem;
   border-radius: 3rem;
   border: 0;
   outline: 0;
@@ -9,7 +9,7 @@
   top: 0;
   right: -2rem;
   z-index: 2;
-
+  transition:transform 0.3s ease-in-out;
   &:focus {
     outline: 0;
   }

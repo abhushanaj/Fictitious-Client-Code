@@ -15,7 +15,7 @@
     color: $dark-grayish-red;
     font-weight: $bold;
     &--error {
-      border: 2px solid $soft-red;
+      border: 1px solid $soft-red;
     }
     &::placeholder {
       color: rgba($desaturated-red, 0.6);
