@@ -1,8 +1,16 @@
 /* Button container */
 
-.mainbtn--container{
-  margin-top:2rem;
-  width:40%;
+.mainbtn--container {
+  margin-top: 2rem;
+  width: 40%;
+  @media only screen and(max-width:1200px) {
+    text-align: center;
+    width: 50%;
+    margin: 2rem auto;
+  }
+  @media only screen and(max-width:500px) {
+    width: 90%;
+  }
 }
 
 .btn {
@@ -21,6 +29,11 @@
   font-weight: $medium;
   transition: all 0.2s ease-in-out;
   box-shadow: $shadow-light;
+   @media only screen and(max-width:500px) {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+  }
+
   &:hover {
     background: $pink;
     color: $white;
@@ -32,14 +45,21 @@
   color: $white;
   font-weight: $medium;
   transition: all 0.2s ease-in-out;
-  font-size:1.3rem;
-  font-weight:$light;
+  font-size: 1.3rem;
+  font-weight: $light;
   padding: 1rem 2.5rem;
-  width:100%;
+  width: 100%;
+  @media only screen and(max-width:1200px) {
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+  }
+  @media only screen and(max-width:500px) {
+    padding: 1rem 2.5rem;
+    font-size: 1.3rem;
+  }
   &:hover {
     background: $white;
     color: $pink;
     box-shadow: $shadow-light;
   }
 }
-
