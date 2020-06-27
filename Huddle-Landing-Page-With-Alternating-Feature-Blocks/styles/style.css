@@ -2,7 +2,9 @@
 /* Neutral Colors */
 /* Font Weights */
 /* Box-Shadow */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit; }
@@ -12,9 +14,16 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.5; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+ul {
+  list-style: none; }
 
 .primary--heading {
   font-family: "Poppins", sans-serif;
@@ -95,6 +104,13 @@ body {
   @media only screen and (max-width: 500px) {
     .tertiary--heading {
       font-size: 1.5rem; } }
+
+.copyright {
+  font-size: 1.3rem;
+  color: #fff;
+  text-align: right;
+  font-weight: 400;
+  margin-top: 2rem; }
 
 .u-container {
   max-width: 1200px;
@@ -186,6 +202,9 @@ body {
 .commbtn--container {
   width: 40%;
   margin: 2rem auto; }
+  @media only screen and (max-width: 650px) {
+    .commbtn--container {
+      width: 60%; } }
   @media only screen and (max-width: 500px) {
     .commbtn--container {
       width: 80%; } }
@@ -204,7 +223,8 @@ body {
   color: #00252e;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6); }
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  height: 100%; }
   @media only screen and (max-width: 500px) {
     .btn--primary {
       padding: 0.8rem 2rem;
@@ -297,13 +317,54 @@ footer {
   border-radius: 1rem;
   margin: 0 auto;
   position: absolute;
-  top: -50%;
+  top: -20%;
   left: 50%;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
   transform: translateX(-50%); }
+  @media only screen and (max-width: 1220px) {
+    .communitybox {
+      width: 70%; } }
   @media only screen and (max-width: 850px) {
     .communitybox {
       width: 90%; } }
   @media only screen and (max-width: 500px) {
     .communitybox {
-      padding: 1rem; } }
+      padding: 1rem;
+      top: -10%; } }
+
+/* Main Footer */
+.footer {
+  margin-top: 15rem; }
+  .footer__logo {
+    width: 15rem; }
+    .footer__logo img {
+      max-width: 100%; }
+  .footer__socials {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .footer__items {
+    flex: 0 0 20%;
+    background: pink;
+    justify-self: center; }
+    .footer__items:first-child {
+      flex: 0 0 25%; }
+    .footer__items:last-child {
+      flex: 0 0 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+  .footer__item {
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0.5rem; }
+    .footer__item--special {
+      display: flex;
+      align-items: flex-start;
+      padding-left: 1rem; }
+
+.item-icon {
+  margin-right: 1rem; }
+  .item-icon img {
+    width: 1.5rem; }

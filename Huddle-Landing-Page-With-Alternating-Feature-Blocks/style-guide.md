@@ -44,20 +44,7 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [Ionicons](https://ionicons.com/)
 
 
-
-
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
+ About Us
   What We Do
   FAQ
 

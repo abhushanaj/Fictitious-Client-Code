@@ -16,8 +16,11 @@
 .commbtn--container {
   width: 40%;
   margin: 2rem auto;
+  @media only screen and(max-width:650px) {
+    width: 60%;
+  }
   @media only screen and(max-width:500px) {
-    width:80%
+    width: 80%;
   }
 }
 
@@ -37,6 +40,7 @@
   font-weight: $medium;
   transition: all 0.2s ease-in-out;
   box-shadow: $shadow-light;
+  height: 100%;
   @media only screen and(max-width:500px) {
     padding: 0.8rem 2rem;
     font-size: 1.1rem;
