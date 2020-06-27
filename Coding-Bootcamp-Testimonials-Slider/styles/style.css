@@ -43,6 +43,10 @@ ul {
       width: 90%;
       margin: 0 auto;
       text-align: center; } }
+  @media only screen and (max-width: 500px) {
+    .testimonial {
+      font-size: 2rem;
+      width: 100%; } }
 
 .data {
   transform: translateX(7rem);
@@ -107,7 +111,8 @@ ul {
         margin: 5rem auto; } }
     @media only screen and (max-width: 500px) {
       .slider__content {
-        margin: 2rem auto; } }
+        margin: 2rem auto;
+        min-height: 40rem; } }
   .slider__image {
     flex: 0 0 50%;
     height: 100%;
@@ -120,6 +125,10 @@ ul {
         flex: 0 0 100%;
         width: 100%;
         align-self: center; } }
+    @media only screen and (max-width: 500px) {
+      .slider__image {
+        max-height: 20rem;
+        min-height: 30rem; } }
 
 /* Background images */
 .background-image {
@@ -133,6 +142,10 @@ ul {
   left: 30%;
   z-index: -10;
   height: 10rem; }
+  @media only screen and (max-width: 500px) {
+    .qoute-mark {
+      height: 5rem;
+      left: 40%; } }
 
 /* Main slider content */
 .person__image {
@@ -153,7 +166,7 @@ ul {
       text-align: center; } }
   @media only screen and (max-width: 700px) and (max-width: 500px) {
     .person__image {
-      top: 40%; } }
+      top: 70%; } }
   .person__image img {
     max-width: 100%;
     z-index: 1; }
@@ -202,3 +215,28 @@ ul {
   .slider__nav--right {
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem; }
+
+.u-container {
+  width: 90%;
+  margin: 0 auto; }
+
+.u-center {
+  text-align: center; }
+
+footer {
+  margin-top: 2rem;
+  background-color: #202046;
+  color: #fff;
+  padding: 2rem 0rem;
+  z-index: 15;
+  position: relative; }
+
+.footer__line {
+  font-size: 2.1rem; }
+
+.footer__credits {
+  font-size: 1.5rem;
+  margin: 1rem 0; }
+
+.link {
+  color: cyan; }
