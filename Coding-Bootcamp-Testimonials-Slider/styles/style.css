@@ -14,7 +14,7 @@ html {
 body {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500; }
 
 a {
@@ -22,3 +22,52 @@ a {
 
 ul {
   list-style: none; }
+
+.curve-display {
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 80vh;
+  margin: 5rem auto; }
+
+.slider {
+  min-height: 70vh;
+  min-width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%; }
+  .slider__content {
+    flex: 0 0 40%;
+    height: 100%;
+    min-height: 70vh; }
+    .slider__content img {
+      max-width: 100%;
+      width: 10rem; }
+  .slider__image {
+    flex: 0 0 40%;
+    height: 100%;
+    min-height: 70vh;
+    position: relative;
+    z-index: 1; }
+    .slider__image .background-image {
+      z-index: -10;
+      max-width: 100%; }
+
+.person__image {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem; }
+  .person__image img {
+    max-width: 100%; }

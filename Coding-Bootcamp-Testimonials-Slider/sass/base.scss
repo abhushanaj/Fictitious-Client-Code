@@ -1,26 +1,33 @@
 *,
 *::after,
-*::before{
-    margin:0;
-    padding:0;
-    box-sizing: inherit;
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-html{
-    font-size:62.5%; /* 1rem=10px */
+html {
+  font-size: 62.5%; /* 1rem=10px */
 }
 
-body{
-    box-sizing: border-box;
-    line-height:1.5;
-    font-family:"Inter",sans-serif;
-    font-weight:$normal;
+body {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-weight: $normal;
+ 
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
+}
+
+.curve-display{
+    position: absolute;
+    left:0;
+    bottom:0;
 }
