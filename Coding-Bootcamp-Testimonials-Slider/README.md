@@ -34,6 +34,12 @@ You will find all the required assets in the `/images` folder. The assets are al
 
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
+## Deployed Solution
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f900bf1a-6230-4834-a410-4acded558750/deploy-status)](https://app.netlify.com/sites/fervent-easley-59ed60/deploys)
+
+Preview Here: https://fervent-easley-59ed60.netlify.app/
+
+
 
 **Have fun building!** 🚀
-
