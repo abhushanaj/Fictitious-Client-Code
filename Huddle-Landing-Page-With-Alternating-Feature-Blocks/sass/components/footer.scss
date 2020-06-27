@@ -1,0 +1,25 @@
+footer {
+  background: $very-dark-cyan;
+  min-height: 20vh;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.communitybox {
+  background: $white;
+  padding: 5rem 2rem 2rem 2rem;
+  width: 40%;
+  border-radius: 1rem;
+  margin: 0 auto;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  box-shadow: $shadow-box-light;
+  transform: translateX(-50%);
+  @media only screen and(max-width:850px) {
+    width: 90%;
+  }
+  @media only screen and(max-width:500px) {
+    padding:1rem;
+  }
+}

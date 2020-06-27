@@ -5,7 +5,7 @@ $pink: hsl(322, 100%, 66%);
 $very-pale-cyan: hsl(193, 100%, 96%);
 $very-dark-cyan: hsl(192, 100%, 9%);
 $grayish-blue: hsl(208, 11%, 55%);
-$white:#fff;
+$white: #fff;
 
 /* Font Weights */
 $light: 400;
@@ -13,4 +13,5 @@ $medium: 600;
 $bold: 700;
 
 /* Box-Shadow */
-$shadow-light:0 3px 5px rgba(0,0,0,0.6);
+$shadow-light: 0 3px 5px rgba(0, 0, 0, 0.6);
+$shadow-box-light:0 2px 8px 0 rgba(0, 0, 0, 0.2)
