@@ -2,4 +2,17 @@
   font-size: 2.8rem;
   z-index: 10;
   transform: translateX(7rem);
+  color: $dark-blue;
+}
+
+.data {
+  transform: translateX(7rem);
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: $grayish-blue;
+  font-weight: $normal;
+  span {
+    color: $dark-blue;
+    font-weight: $bold;
+  }
 }

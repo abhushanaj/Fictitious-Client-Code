@@ -15,7 +15,8 @@ body {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: "Inter", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  background-color: #fafafa; }
 
 a {
   text-decoration: none; }
@@ -31,7 +32,18 @@ ul {
 .testimonial {
   font-size: 2.8rem;
   z-index: 10;
-  transform: translateX(7rem); }
+  transform: translateX(7rem);
+  color: #202046; }
+
+.data {
+  transform: translateX(7rem);
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #babacf;
+  font-weight: 500; }
+  .data span {
+    color: #202046;
+    font-weight: 700; }
 
 .header {
   display: flex;
@@ -96,3 +108,25 @@ ul {
   padding-left: 2rem;
   transform: translateY(-50%);
   z-index: 20; }
+
+/* Slider Navigation button */
+.slider__nav {
+  display: flex;
+  margin-left: 4rem;
+  transform: translateY(-2rem);
+  width: max-content; }
+  .slider__nav > * {
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; }
+    .slider__nav > *:hover {
+      background-color: #babacf; }
+  .slider__nav--left {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem; }
+  .slider__nav--right {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem; }

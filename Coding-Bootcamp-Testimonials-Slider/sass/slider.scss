@@ -76,3 +76,32 @@
   transform: translateY(-50%);
   z-index: 20;
 }
+
+/* Slider Navigation button */
+
+.slider__nav {
+  display: flex;
+  margin-left: 4rem;
+  transform: translateY(-2rem);
+
+  width: max-content;
+  & > * {
+    background-color: $white;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover{
+      background-color: $grayish-blue;
+    }
+  }
+  &--left {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
+  &--right {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+}
