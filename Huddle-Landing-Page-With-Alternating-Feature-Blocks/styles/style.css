@@ -379,3 +379,15 @@ footer {
   margin-right: 1rem; }
   .item-icon img {
     width: 1.5rem; }
+
+/* Extra credits section */
+.footer {
+  color: #fff; }
+  .footer__line {
+    font-size: 2.1rem; }
+  .footer__credits {
+    margin: 1rem 0;
+    font-size: 1.5rem; }
+
+.link {
+  color: #ff52bf; }

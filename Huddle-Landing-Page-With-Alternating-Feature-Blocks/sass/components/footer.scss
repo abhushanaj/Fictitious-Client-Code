@@ -87,3 +87,20 @@ footer {
     width: 1.5rem;
   }
 }
+
+/* Extra credits section */
+
+.footer {
+  color: $white;
+  &__line {
+    font-size: 2.1rem;
+  }
+  &__credits {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+  }
+}
+
+.link {
+  color: $pink;
+}
