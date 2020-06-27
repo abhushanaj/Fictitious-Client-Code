@@ -39,11 +39,11 @@ ul {
   transform: translateX(7rem);
   font-size: 1.5rem;
   margin-top: 2rem;
-  color: #babacf;
-  font-weight: 500; }
+  color: #202046;
+  font-weight: 700; }
   .data span {
-    color: #202046;
-    font-weight: 700; }
+    color: #babacf;
+    font-weight: 500; }
 
 .header {
   display: flex;
@@ -61,7 +61,8 @@ ul {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  transition: all 0.2s ease-in-out; }
   .slider__content {
     flex: 0 0 50%;
     height: 100%;
@@ -121,7 +122,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer; }
+    cursor: pointer;
+    width: 100%; }
     .slider__nav > *:hover {
       background-color: #babacf; }
   .slider__nav--left {

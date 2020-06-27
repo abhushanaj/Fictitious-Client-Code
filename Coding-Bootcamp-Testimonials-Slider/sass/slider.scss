@@ -17,6 +17,7 @@
   align-items: center;
   margin: 0 auto;
   width: 100%;
+  transition: all 0.2s ease-in-out;
 
   &__content {
     flex: 0 0 50%;
@@ -83,7 +84,6 @@
   display: flex;
   margin-left: 4rem;
   transform: translateY(-2rem);
-
   width: max-content;
   & > * {
     background-color: $white;
@@ -92,7 +92,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    &:hover{
+    width: 100%;
+    &:hover {
       background-color: $grayish-blue;
     }
   }

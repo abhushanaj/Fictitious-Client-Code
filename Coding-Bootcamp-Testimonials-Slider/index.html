@@ -28,13 +28,14 @@
             class="qoute-mark"
           />
           <div class="person__testimonial">
-            <p class="testimonial">
+            <p class="testimonial" id="main">
               “ I’ve been interested in coding for a while but never taken the
               jump, until now. I couldn’t recommend this course enough. I’m now
               in the job of my dreams and so excited about the future. ”
             </p>
-            <p class="data">
-              <span>Tanya Sinclair </span>  UX Engineer
+            <p class="data" id="name">
+              Tanya Sinclair
+              <span id="position">UX Engineer</span>
             </p>
           </div>
         </div>
@@ -45,13 +46,13 @@
             class="background-image"
           />
           <div class="person__image">
-            <img src="./images/image-tanya.jpg" alt="Testimonial Image" />
-            <div class="slider__nav">
-              <div class="slider__nav--left">
-                <img src="./images/icon-prev.svg" alt="Previous Icon">
+            <img src="./images/image-tanya.jpg" alt="Testimonial Image" id="image"/>
+            <div class="slider__nav" id="slider__nav">
+              <div class="slider__nav--left" id="left" name="left">
+                <img src="./images/icon-prev.svg" alt="Previous Icon" name="left">
               </div>
-              <div class="slider__nav--right">
-                <img src="./images/icon-next.svg" alt="Next Icon">
+              <div class="slider__nav--right" id="right" name="right">
+                <img src="./images/icon-next.svg" alt="Next Icon" name="right">
               </div>
             </div>
           </div>
@@ -63,5 +64,6 @@
       alt="Curve Illustration"
       class="curve-display"
     />
+    <script defer src="./scripts/index.js"></script>
   </body>
 </html>
