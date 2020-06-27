@@ -3,17 +3,34 @@
   z-index: 10;
   transform: translateX(7rem);
   color: $dark-blue;
+
+  @media only screen and(max-width:768px) {
+    font-size: 2.3rem;
+  }
+  @media only screen and(max-width:700px) {
+    transform: translateX(0rem);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 .data {
   transform: translateX(7rem);
   font-size: 1.5rem;
   margin-top: 2rem;
-
   color: $dark-blue;
   font-weight: $bold;
+  @media only screen and(max-width:700px) {
+    text-align: center;
+    transform: translateX(0rem);
+    font-size: 1.8rem;
+  }
   span {
     color: $grayish-blue;
     font-weight: $normal;
+    @media only screen and(max-width:700px) {
+      display: block;
+    }
   }
 }

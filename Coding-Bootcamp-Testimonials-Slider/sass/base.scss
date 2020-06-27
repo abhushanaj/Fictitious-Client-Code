@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%; /* 1rem=10px */
+
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: $light;
   background-color:rgb(250, 250, 250);
+ 
  
 }
 
@@ -28,7 +30,8 @@ ul {
 }
 
 .curve-display{
-    position: absolute;
+    position: fixed;
     left:0;
     bottom:0;
+    
 }
