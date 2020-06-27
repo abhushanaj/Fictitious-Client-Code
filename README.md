@@ -25,6 +25,7 @@ The solutions which are present as of now are:
 7.| Base-Apparel-Coming-Soon  | [Details](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Base-Apparel-Coming-Soon) | [Netlify](https://affectionate-heyrovsky-bb0c03.netlify.app/)|
 8.| Ping-Coming-Soon-Page  | [Details](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Ping-Coming-Soon-Page) | [Netlify](https://adoring-dijkstra-dd76ee.netlify.app/)|
 9.| Coding-Bootcamp-Testimonials-Slider | [Details](https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Coding-Bootcamp-Testimonials-Slider) | [Netlify](https://fervent-easley-59ed60.netlify.app/)|
+10.| Huddle-Landing-Page-With-Alternating-Feature-Blocks | [Details](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Huddle-Landing-Page-With-Alternating-Feature-Blocks) | [Netlify](https://modest-shannon-ad55ae.netlify.app/)|
 
 
 
