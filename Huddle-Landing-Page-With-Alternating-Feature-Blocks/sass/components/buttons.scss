@@ -1,0 +1,45 @@
+/* Button container */
+
+.mainbtn--container{
+  margin-top:2rem;
+  width:40%;
+}
+
+.btn {
+  border: 0;
+  border-radius: 2.5rem;
+  outline: 0;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn--primary {
+  background: $white;
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  color: $very-dark-cyan;
+  font-weight: $medium;
+  transition: all 0.2s ease-in-out;
+  box-shadow: $shadow-light;
+  &:hover {
+    background: $pink;
+    color: $white;
+  }
+}
+
+.btn--secondary {
+  background: $pink;
+  color: $white;
+  font-weight: $medium;
+  transition: all 0.2s ease-in-out;
+  font-size:1.3rem;
+  font-weight:$light;
+  padding: 1rem 2.5rem;
+  width:100%;
+  &:hover {
+    background: $white;
+    color: $pink;
+    box-shadow: $shadow-light;
+  }
+}
+

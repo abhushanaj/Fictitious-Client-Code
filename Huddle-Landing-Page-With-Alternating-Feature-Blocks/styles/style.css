@@ -1,6 +1,7 @@
 /* Primary Colors */
 /* Neutral Colors */
 /* Font Weights */
+/* Box-Shadow */
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -15,6 +16,21 @@ body {
   font-weight: 400;
   line-height: 1.5; }
 
+.primary--heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  color: #00252e;
+  width: 70%;
+  font-weight: 700; }
+
+.tagline {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  width: 80%;
+  color: #00252e; }
+
 .u-container {
   max-width: 1200px;
   margin: 0 auto; }
@@ -24,3 +40,72 @@ body {
 
 .u-margin-4 {
   margin: 4rem; }
+
+.u-width-70 {
+  width: 70%;
+  margin: 0 auto;
+  background-color: yellow; }
+
+.header {
+  padding-top: 3rem;
+  background: url("../../images/bg-hero-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ebfbff;
+  min-height: 100vh; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.herobox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem; }
+  .herobox__content {
+    flex: 0 0 50%; }
+  .herobox__image {
+    flex: 0 0 50%; }
+    .herobox__image img {
+      max-width: 100%; }
+
+/* Button container */
+.mainbtn--container {
+  margin-top: 2rem;
+  width: 40%; }
+
+.btn {
+  border: 0;
+  border-radius: 2.5rem;
+  outline: 0;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif; }
+
+.btn--primary {
+  background: #fff;
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  color: #00252e;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6); }
+  .btn--primary:hover {
+    background: #ff52bf;
+    color: #fff; }
+
+.btn--secondary {
+  background: #ff52bf;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 1rem 2.5rem;
+  width: 100%; }
+  .btn--secondary:hover {
+    background: #fff;
+    color: #ff52bf;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6); }

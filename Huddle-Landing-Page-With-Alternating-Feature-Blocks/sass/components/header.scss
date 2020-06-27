@@ -1,0 +1,32 @@
+.header {
+  padding-top: 3rem;
+  background: url("../../images/bg-hero-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $very-pale-cyan;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.herobox{
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  margin-top:4rem;
+  &__content{
+    flex:0 0 50%;
+  }
+  &__image{
+    flex:0 0 50%;
+    img{
+      max-width:100%;
+    }
+  }
+}
