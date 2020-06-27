@@ -11,6 +11,9 @@
 
 html {
   font-size: 62.5%; }
+  @media only screen and (min-width: 1440px) {
+    html {
+      font-size: 72%; } }
 
 body {
   box-sizing: border-box;
@@ -118,6 +121,10 @@ ul {
 .u-container {
   max-width: 1200px;
   margin: 0 auto; }
+  @media only screen and (min-width: 1441px) {
+    .u-container {
+      max-width: 1440px;
+      margin: 0 auto; } }
   @media only screen and (max-width: 1200px) {
     .u-container {
       width: 90%;
