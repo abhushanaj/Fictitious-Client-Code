@@ -1,15 +1,27 @@
-*,*::after,*::before{
-    margin:0;
-    padding:0;
-    box-sizing:inherit;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-html{
-    font-size:62.5%; /* 1rem=10px*/
-} 
+html {
+  font-size: 62.5%; /* 1rem=10px*/
+}
 
-body{
-    box-sizing:border-box;
-    line-height:1.5;
-    font-family: 'Manrope', sans-serif;
+body {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Manrope", sans-serif;
+  background: $light-grayish-blue;
+}
+
+.u-container {
+  max-width: 120rem;
+  margin: 0rem auto;
+  margin-top: 10rem;
+  @media only screen and(max-width:1200px) {
+    width: 90%;
+  }
 }
