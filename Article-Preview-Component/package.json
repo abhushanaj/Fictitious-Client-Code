@@ -1,0 +1,15 @@
+{
+  "name": "article-preview-component",
+  "version": "1.0.0",
+  "description": "This repository includes the solution for the sharing article challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass":"node-sass ./sass/style.scss ./styles/style.css -w"
+  },
+  "author": "Abhushan A Joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
