@@ -7,6 +7,9 @@ footer {
 .footer {
   margin-top: 0; /* override the container margin*/
   color: $white;
+  @media only screen and (max-width: 850px) {
+    width: 90%;
+  }
   &__line {
     font-size: 2.2rem;
   }
@@ -16,6 +19,6 @@ footer {
   }
 }
 
-.link{
-    color:$cyan;
+.link {
+  color: $cyan;
 }
