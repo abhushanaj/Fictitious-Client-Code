@@ -8,7 +8,7 @@ shareButton.addEventListener('click', () => {
     const screenWidthSize = screen.width;
     // handle larger screens (greater than 450px)
     if (screenWidthSize > 450) {
-        if (sharingMenu.classList.contains("hide")) {
+        if (sharingMenu.classList.contains('hide')) {
             sharingMenu.classList.remove('hide');
         }
         else {
@@ -16,17 +16,20 @@ shareButton.addEventListener('click', () => {
         }
     }
     else {
-        shareButton.classList.add("remove");
-        smallSharingMenu.classList.remove("hide");
+        shareButton.classList.add('remove');
+        smallSharingMenu.classList.remove('hide');
     }
     
 });
 
 shareButtonSmall.addEventListener('click', () => {
     console.log("Click from small screen");
-    if (!smallSharingMenu.classList.contains("hide")) {
+    if (!smallSharingMenu.classList.contains('hide')) {
         sharingMenu.classList.remove('hide');
         smallSharingMenu.classList.add("hide");
         shareButton.classList.remove("remove");
+    }
+    else {
+        sharingMenu.classList.add('hide');
     }
 })

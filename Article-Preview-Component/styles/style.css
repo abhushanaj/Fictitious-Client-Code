@@ -29,7 +29,6 @@ ul {
   max-width: 120rem;
   margin: 0rem auto;
   margin-top: 10rem;
-  background-color: palegoldenrod;
   padding: 1rem 0; }
   @media only screen and (max-width: 1200px) {
     .u-container {

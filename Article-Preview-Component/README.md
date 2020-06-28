@@ -38,6 +38,12 @@ You will find all the required assets in the `/images` folder. The assets are al
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
 
+## Deployed Solution
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7dfa1286-ff63-4f64-aaac-aa025c2eb48e/deploy-status)](https://app.netlify.com/sites/flamboyant-bardeen-1a8b65/deploys)
+
+Preview Here: https://flamboyant-bardeen-1a8b65.netlify.app/
+
 
 **Have fun building!** 🚀
 
