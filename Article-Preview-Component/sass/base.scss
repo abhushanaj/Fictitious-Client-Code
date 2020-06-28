@@ -17,6 +17,9 @@ body {
   background: $light-grayish-blue;
 }
 
+a{
+  text-decoration: none;
+}
 .u-container {
   max-width: 120rem;
   margin: 0rem auto;
@@ -24,4 +27,8 @@ body {
   @media only screen and(max-width:1200px) {
     width: 90%;
   }
+}
+
+.u-center{
+  text-align:center;
 }
