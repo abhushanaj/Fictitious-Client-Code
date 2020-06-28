@@ -26,16 +26,15 @@
   }
 }
 
-
-.second{
-    display:none;
+.second {
+  display: none;
 }
 
 .infobox {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
   &__user {
     display: flex;
     justify-content: space-evenly;
@@ -65,13 +64,14 @@
     padding: 1.2rem;
     border-radius: 50%;
     cursor: pointer;
+    position: relative;
     &:hover {
       background-color: $desaturated-dark-blue;
-      & .first{
-          display:none;
+      & .first {
+        display: none;
       }
-      & .second{
-          display:block;
+      & .second {
+        display: block;
       }
     }
 
@@ -80,4 +80,3 @@
     }
   }
 }
-
