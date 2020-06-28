@@ -21,7 +21,8 @@ const sliderData = [
 let currentIndex = 0;
 
 sliderNav.addEventListener("click", (event) => {
-  const name = event.target.name;
+  const name = event.target.getAttribute('data-name');
+
 
   if (name === "right") {
     currentIndex += 1;
