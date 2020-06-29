@@ -16,7 +16,8 @@ body {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: "Barlow", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  overflow-x: hidden; }
 
 a {
   text-decoration: none; }
@@ -30,3 +31,120 @@ ul {
   @media only screen and (max-width: 1200px) {
     .u-container {
       width: 90%; } }
+
+.tagline__container {
+  width: 70%;
+  margin: 5rem 0; }
+
+.tagline {
+  font-size: 1.5rem;
+  color: #a0a1ac;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif; }
+  .tagline span {
+    background: #242942;
+    color: #eef3f6;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    letter-spacing: 1px; }
+
+.main-heading {
+  font-size: 7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  line-height: 1;
+  color: #242942; }
+
+.slogan {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  width: 50%;
+  color: rgba(36, 41, 66, 0.6);
+  line-height: 1.2; }
+
+.cta__text {
+  font-size: 1.2rem;
+  color: #a0a1ac;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  justify-self: flex-start;
+  margin-left: 1rem; }
+
+.logobox img {
+  max-width: 100%; }
+
+.navbar {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navbar__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .navbar__group {
+    margin: 0 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+  .navbar__item {
+    padding: 0 1rem; }
+  .navbar__link {
+    font-size: 1.5rem;
+    color: #5b5f71;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    .navbar__link--1 {
+      color: #a0a1ac; }
+    .navbar__link:hover {
+      text-decoration: underline; }
+
+.herobox {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .herobox__content {
+    flex: 0 0 50%;
+    min-height: 80vh; }
+  .herobox__image {
+    flex: 0 0 50%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .herobox__image img {
+      max-width: 100%;
+      transform: scale(1.5) translateX(10rem); }
+
+.cta__container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%; }
+
+.btn__container {
+  flex: 0 0 50%; }
+
+.btn {
+  background: #ff5c5c;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #eef3f6;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Barlow Condensed", sans-serif;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 2px; }
+  .btn:hover {
+    opacity: 0.8; }

@@ -1,0 +1,46 @@
+.tagline__container {
+  width: 70%;
+  margin: 5rem 0;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  color: $grayish-blue;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  span {
+    background: $very-dark-blue;
+    color: $light-grayish-blue;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    letter-spacing: 1px;
+  }
+}
+
+.main-heading {
+  font-size: 7rem;
+  font-weight: $bold;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  line-height: 1;
+  color: $very-dark-blue;
+}
+
+.slogan {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  width: 50%;
+  color: rgba($very-dark-blue, 0.6);
+  line-height: 1.2;
+}
+
+.cta__text {
+  font-size: 1.2rem;
+  color: $grayish-blue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  justify-self: flex-start;
+  margin-left: 1rem;
+}
