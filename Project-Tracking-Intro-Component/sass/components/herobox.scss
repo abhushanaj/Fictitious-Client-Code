@@ -13,7 +13,6 @@
 
   &__content {
     flex: 0 0 50%;
-    // min-height: 80vh;
     @media only screen and(max-width:948px) {
       order: 2;
     }
@@ -21,25 +20,29 @@
 
   &__image {
     flex: 0 0 50%;
-    min-height: 80vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    @media only screen and(max-width:100px) {
-      align-items: flex-start;
-    }
+
     @media only screen and(max-width:948px) {
       order: 1;
     }
     img {
       max-width: 100%;
+      margin-top: 5rem;
       transform: scale(1.5) translateX(10rem);
       @media only screen and(max-width:948px) {
         transform: scale(1.2) translateX(10rem);
       }
-       @media only screen and(max-width:610px) {
+      @media only screen and(max-width:610px) {
         transform: scale(1.6) translateX(8rem);
-        // align-self: flex-start;
+      }
+      @media only screen and(max-width:425px) {
+        transform: scale(1.4) translateX(3.5rem);
+      }
+      @media only screen and(max-width:375px) {
+        transform: scale(1.7) translateX(7rem);
       }
     }
   }

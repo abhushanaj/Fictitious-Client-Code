@@ -19,7 +19,8 @@ body {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   overflow-x: hidden !important;
-  max-width: 100vw; }
+  max-width: 100vw;
+  background-color: white; }
 
 a {
   text-decoration: none; }
@@ -36,7 +37,7 @@ ul {
 
 .background-highlighter {
   position: absolute;
-  width: 50vw;
+  width: 100%;
   height: 70vh;
   background: #eef3f6;
   top: 0;
@@ -57,10 +58,19 @@ ul {
       height: 90vh;
       left: 40%;
       width: 90vw; } }
+  @media only screen and (max-width: 425px) {
+    .background-highlighter {
+      height: 80vh; } }
+  @media only screen and (max-width: 375px) {
+    .background-highlighter {
+      height: 60vh; } }
 
 .tagline__container {
   width: 70%;
   margin: 5rem 0; }
+  @media only screen and (max-width: 610px) {
+    .tagline__container {
+      width: 90%; } }
 
 .tagline {
   font-size: 1.5rem;
@@ -71,6 +81,13 @@ ul {
   @media only screen and (max-width: 948px) {
     .tagline {
       font-size: 1.7rem; } }
+  @media only screen and (max-width: 810px) {
+    .tagline {
+      width: 100%; } }
+  @media only screen and (max-width: 375px) {
+    .tagline {
+      font-size: 1.7rem;
+      letter-spacing: 1px; } }
   .tagline span {
     background: #242942;
     color: #eef3f6;
@@ -94,7 +111,8 @@ ul {
       width: 80%; } }
   @media only screen and (max-width: 610px) {
     .main-heading {
-      font-size: 5rem; } }
+      font-size: 4.3rem;
+      width: 100%; } }
 
 .slogan {
   font-size: 1.8rem;
@@ -110,7 +128,8 @@ ul {
       width: 50%; } }
   @media only screen and (max-width: 610px) {
     .slogan {
-      width: 80%; } }
+      width: 100%;
+      margin-top: 3rem; } }
 
 .cta__text {
   font-size: 1.2rem;
@@ -119,6 +138,9 @@ ul {
   letter-spacing: 2px;
   justify-self: flex-start;
   margin-left: 1rem; }
+  @media only screen and (max-width: 400px) {
+    .cta__text {
+      letter-spacing: 1px; } }
 
 .logobox img {
   max-width: 100%; }
@@ -173,9 +195,12 @@ ul {
   box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.4);
   z-index: 25;
   position: absolute;
-  width: 60%;
-  left: 20%;
+  width: 80%;
+  left: 10%;
   top: 10rem; }
+  @media only screen and (min-width: 600px) {
+    .navbar__small {
+      display: none; } }
   .navbar__small li {
     margin: 3rem 0;
     width: 100%; }
@@ -210,18 +235,16 @@ ul {
         order: 2; } }
   .herobox__image {
     flex: 0 0 50%;
-    min-height: 80vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center; }
-    @media only screen and (max-width: 100px) {
-      .herobox__image {
-        align-items: flex-start; } }
     @media only screen and (max-width: 948px) {
       .herobox__image {
         order: 1; } }
     .herobox__image img {
       max-width: 100%;
+      margin-top: 5rem;
       transform: scale(1.5) translateX(10rem); }
       @media only screen and (max-width: 948px) {
         .herobox__image img {
@@ -229,6 +252,12 @@ ul {
       @media only screen and (max-width: 610px) {
         .herobox__image img {
           transform: scale(1.6) translateX(8rem); } }
+      @media only screen and (max-width: 425px) {
+        .herobox__image img {
+          transform: scale(1.4) translateX(3.5rem); } }
+      @media only screen and (max-width: 375px) {
+        .herobox__image img {
+          transform: scale(1.7) translateX(7rem); } }
 
 .cta__container {
   margin-top: 5rem;
@@ -245,6 +274,9 @@ ul {
   @media only screen and (max-width: 810px) {
     .cta__container {
       width: 80%; } }
+  @media only screen and (max-width: 810px) {
+    .cta__container {
+      width: 100%; } }
 
 .btn__container {
   flex: 0 0 50%; }
