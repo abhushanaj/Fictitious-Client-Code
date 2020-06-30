@@ -22,7 +22,6 @@
   </head>
   <body>
     <header class="header">
-     
       <nav class="navbar u-container">
         <div class="logobox">
           <img src="./images/logo.svg" alt="Company Logo" />
@@ -46,14 +45,26 @@
             </li>
           </ul>
         </div>
+        <img
+          src="./images/icon-hamburger.svg"
+          alt="Hamburger Icon"
+          class="hamburger"
+          id="hamburger"
+        />
       </nav>
 
+      <nav class="navbar__small hide">
+        <ul>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#" class="navbar__link--1">Login</a></li>
+        </ul>
+      </nav>
       <div class="herobox u-container">
         <div class="herobox__content">
           <div class="tagline__container">
-            <p class="tagline">
-              <span>New</span> Monograph Dashboard
-            </p>
+            <p class="tagline"><span>New</span> Monograph Dashboard</p>
           </div>
           <h1 class="main-heading">
             Powerful insights into your team
@@ -71,10 +82,15 @@
           </div>
         </div>
         <div class="herobox__image">
-          <img src="./images/illustration-devices.svg" alt="Graphical Illustration">
+          <img
+            src="./images/illustration-devices.svg"
+            alt="Graphical Illustration"
+          />
         </div>
       </div>
     </header>
     <div class="background-highlighter"></div>
+
+    <script defer src="./scripts/index.js"></script>
   </body>
 </html>

@@ -1,6 +1,7 @@
 /* Primary Colors */
 /* Secondary Colors */
 /* Font Weights*/
+/* Shadows */
 *,
 *::after,
 *::before {
@@ -17,7 +18,8 @@ body {
   line-height: 1.5;
   font-family: "Barlow", sans-serif;
   font-weight: 400;
-  overflow-x: hidden; }
+  overflow-x: hidden !important;
+  max-width: 100vw; }
 
 a {
   text-decoration: none; }
@@ -38,10 +40,23 @@ ul {
   height: 70vh;
   background: #eef3f6;
   top: 0;
-  right: 0;
+  left: 50%;
   z-index: -5;
   border-bottom-left-radius: 15rem;
   border-bottom-right-radius: 15rem; }
+  @media only screen and (max-width: 948px) {
+    .background-highlighter {
+      height: 100vh;
+      left: 60%;
+      border-bottom-left-radius: 10rem;
+      border-bottom-right-radius: 10rem; } }
+  @media only screen and (max-width: 610px) {
+    .background-highlighter {
+      border-bottom-left-radius: 5rem;
+      border-bottom-right-radius: 5rem;
+      height: 90vh;
+      left: 40%;
+      width: 90vw; } }
 
 .tagline__container {
   width: 70%;
@@ -53,6 +68,9 @@ ul {
   letter-spacing: 5px;
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif; }
+  @media only screen and (max-width: 948px) {
+    .tagline {
+      font-size: 1.7rem; } }
   .tagline span {
     background: #242942;
     color: #eef3f6;
@@ -68,6 +86,15 @@ ul {
   font-family: "Barlow Condensed", sans-serif;
   line-height: 1;
   color: #242942; }
+  @media only screen and (max-width: 1200px) {
+    .main-heading {
+      font-size: 6rem; } }
+  @media only screen and (max-width: 948px) {
+    .main-heading {
+      width: 80%; } }
+  @media only screen and (max-width: 610px) {
+    .main-heading {
+      font-size: 5rem; } }
 
 .slogan {
   font-size: 1.8rem;
@@ -75,6 +102,15 @@ ul {
   width: 50%;
   color: rgba(36, 41, 66, 0.6);
   line-height: 1.2; }
+  @media only screen and (max-width: 1200px) {
+    .slogan {
+      width: 80%; } }
+  @media only screen and (max-width: 948px) {
+    .slogan {
+      width: 50%; } }
+  @media only screen and (max-width: 610px) {
+    .slogan {
+      width: 80%; } }
 
 .cta__text {
   font-size: 1.2rem;
@@ -96,6 +132,9 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+    @media only screen and (max-width: 600px) {
+      .navbar__items {
+        display: none; } }
   .navbar__group {
     margin: 0 4rem;
     display: flex;
@@ -116,23 +155,80 @@ ul {
     .navbar__link:hover {
       text-decoration: underline; }
 
+.hamburger {
+  cursor: pointer; }
+  @media only screen and (min-width: 599px) {
+    .hamburger {
+      display: none; } }
+
+/* Small Screen Navbars */
+.hide {
+  display: none; }
+
+.navbar__small {
+  background: #fff;
+  padding: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.4);
+  z-index: 25;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  top: 10rem; }
+  .navbar__small li {
+    margin: 3rem 0;
+    width: 100%; }
+    .navbar__small li:last-child {
+      border-top: 1px solid #a0a1ac;
+      padding-top: 1.3rem; }
+  .navbar__small a {
+    font-size: 2.5rem;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #242942;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+    .navbar__small a.navbar__link--1 {
+      color: #a0a1ac; }
+
+.header {
+  margin-bottom: 5rem; }
+
 .herobox {
   margin-top: 4rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
+  @media only screen and (max-width: 948px) {
+    .herobox {
+      flex-direction: column; } }
   .herobox__content {
-    flex: 0 0 50%;
-    min-height: 80vh; }
+    flex: 0 0 50%; }
+    @media only screen and (max-width: 948px) {
+      .herobox__content {
+        order: 2; } }
   .herobox__image {
     flex: 0 0 50%;
     min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center; }
+    @media only screen and (max-width: 100px) {
+      .herobox__image {
+        align-items: flex-start; } }
+    @media only screen and (max-width: 948px) {
+      .herobox__image {
+        order: 1; } }
     .herobox__image img {
       max-width: 100%;
       transform: scale(1.5) translateX(10rem); }
+      @media only screen and (max-width: 948px) {
+        .herobox__image img {
+          transform: scale(1.2) translateX(10rem); } }
+      @media only screen and (max-width: 610px) {
+        .herobox__image img {
+          transform: scale(1.6) translateX(8rem); } }
 
 .cta__container {
   margin-top: 5rem;
@@ -140,6 +236,15 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   width: 60%; }
+  @media only screen and (max-width: 1200px) {
+    .cta__container {
+      width: 80%; } }
+  @media only screen and (max-width: 948px) {
+    .cta__container {
+      width: 50%; } }
+  @media only screen and (max-width: 810px) {
+    .cta__container {
+      width: 80%; } }
 
 .btn__container {
   flex: 0 0 50%; }

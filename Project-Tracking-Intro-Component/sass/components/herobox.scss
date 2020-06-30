@@ -1,25 +1,46 @@
+.header {
+  margin-bottom: 5rem;
+}
+
 .herobox {
   margin-top: 4rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  @media only screen and(max-width:948px) {
+    flex-direction: column;
+  }
 
   &__content {
     flex: 0 0 50%;
-    min-height: 80vh;
-   
+    // min-height: 80vh;
+    @media only screen and(max-width:948px) {
+      order: 2;
+    }
   }
 
   &__image {
     flex: 0 0 50%;
     min-height: 80vh;
-  
     display: flex;
     align-items: center;
     justify-content: center;
+    @media only screen and(max-width:100px) {
+      align-items: flex-start;
+    }
+    @media only screen and(max-width:948px) {
+      order: 1;
+    }
     img {
       max-width: 100%;
       transform: scale(1.5) translateX(10rem);
+      @media only screen and(max-width:948px) {
+        transform: scale(1.2) translateX(10rem);
+      }
+       @media only screen and(max-width:610px) {
+        transform: scale(1.6) translateX(8rem);
+        // align-self: flex-start;
+      }
     }
   }
 }

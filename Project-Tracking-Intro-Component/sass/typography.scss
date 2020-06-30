@@ -9,6 +9,9 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
+  @media only screen and(max-width:948px) {
+    font-size: 1.7rem;
+  }
   span {
     background: $very-dark-blue;
     color: $light-grayish-blue;
@@ -26,6 +29,15 @@
   font-family: "Barlow Condensed", sans-serif;
   line-height: 1;
   color: $very-dark-blue;
+  @media only screen and(max-width:1200px) {
+    font-size: 6rem;
+  }
+  @media only screen and(max-width:948px) {
+    width: 80%;
+  }
+  @media only screen and(max-width:610px) {
+    font-size: 5rem;
+  }
 }
 
 .slogan {
@@ -34,6 +46,15 @@
   width: 50%;
   color: rgba($very-dark-blue, 0.6);
   line-height: 1.2;
+  @media only screen and(max-width:1200px) {
+    width: 80%;
+  }
+  @media only screen and(max-width:948px) {
+    width: 50%;
+  }
+  @media only screen and(max-width:610px) {
+    width: 80%;
+  }
 }
 
 .cta__text {
