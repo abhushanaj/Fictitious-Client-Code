@@ -296,3 +296,19 @@ ul {
   letter-spacing: 2px; }
   .btn:hover {
     opacity: 0.8; }
+
+footer {
+  background: #242942;
+  color: #eef3f6;
+  margin-top: 2rem; }
+
+.footer {
+  padding: 2rem 0; }
+  .footer__line {
+    font-size: 2.1rem; }
+  .footer__credits {
+    font-size: 1.5rem;
+    margin: 1.5rem auto; }
+
+.link {
+  color: #ff5c5c; }
