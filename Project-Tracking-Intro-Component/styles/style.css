@@ -32,6 +32,17 @@ ul {
     .u-container {
       width: 90%; } }
 
+.background-highlighter {
+  position: absolute;
+  width: 50vw;
+  height: 70vh;
+  background: #eef3f6;
+  top: 0;
+  right: 0;
+  z-index: -5;
+  border-bottom-left-radius: 15rem;
+  border-bottom-right-radius: 15rem; }
+
 .tagline__container {
   width: 70%;
   margin: 5rem 0; }

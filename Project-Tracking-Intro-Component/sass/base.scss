@@ -16,6 +16,7 @@ body {
   font-family: "Barlow", sans-serif;
   font-weight: $normal;
   overflow-x: hidden;
+  
 }
 
 a {
@@ -34,3 +35,17 @@ ul {
   }
 }
 
+
+.background-highlighter{
+  position: absolute;
+  width:50vw;
+  height:70vh;
+  background:$light-grayish-blue;
+  top:0;
+  right:0;
+  z-index:-5;
+  border-bottom-left-radius: 15rem;
+  border-bottom-right-radius: 15rem;
+
+
+}
