@@ -35,6 +35,34 @@ ul {
 .u-center {
   text-align: center; }
 
+.u-contain-60 {
+  width: 60%;
+  margin: 0 auto; }
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #00252e; }
+  .heading--primary {
+    font-size: 3rem;
+    text-align: center; }
+
+.tagline {
+  width: 60%;
+  margin: 2rem auto;
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgba(0, 37, 46, 0.7);
+  font-weight: 600; }
+
+.herobox {
+  margin-top: 8rem; }
+  .herobox__image {
+    text-align: center;
+    margin-top: 4rem; }
+    .herobox__image img {
+      max-width: 80%; }
+
 .logo-box {
   width: 20rem; }
   .logo-box img {
@@ -46,15 +74,20 @@ ul {
   justify-content: space-between;
   align-items: center; }
 
+/* Buttons Contaniner's */
+.btn__container {
+  width: 40%;
+  margin: 2rem auto; }
+
 .btn {
   border: 0;
   outline: 0;
   font-family: "Open Sans", sans-serif;
+  background: transparent;
   cursor: pointer; }
 
 .btn--primary {
   border: 1px solid #ff52bf;
-  background: transparent;
   padding: 1rem 2.2rem;
   font-size: 1.3rem;
   border-radius: 4rem;
@@ -64,3 +97,16 @@ ul {
   .btn--primary:hover {
     background: #ff52bf;
     color: #fff; }
+
+.btn--secondary {
+  background-color: #ff52bf;
+  color: #f5faff;
+  width: 90%;
+  height: 100%;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  transition: all 0.2s ease-in-out; }
+  .btn--secondary:hover {
+    background-color: rgba(255, 82, 191, 0.9); }

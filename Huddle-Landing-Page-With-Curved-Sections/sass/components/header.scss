@@ -1,0 +1,11 @@
+.herobox {
+  margin-top: 8rem;
+
+  &__image {
+    text-align: center;
+    margin-top: 4rem;
+    img {
+      max-width: 80%;
+    }
+  }
+}

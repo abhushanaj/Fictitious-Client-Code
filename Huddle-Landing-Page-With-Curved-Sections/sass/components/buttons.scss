@@ -1,13 +1,21 @@
+/* Buttons Contaniner's */
+
+.btn__container {
+  width: 40%;
+  margin: 2rem auto;
+}
+
 .btn {
   border: 0;
   outline: 0;
   font-family: "Open Sans", sans-serif;
+  background: transparent;
   cursor: pointer;
 }
 
 .btn--primary {
   border: 1px solid $pink;
-  background: transparent;
+
   padding: 1rem 2.2rem;
   font-size: 1.3rem;
   border-radius: 4rem;
@@ -18,5 +26,20 @@
   &:hover {
     background: $pink;
     color: $white;
+  }
+}
+
+.btn--secondary {
+  background-color: $pink;
+  color: $very-pale-blue;
+  width: 90%;
+  height: 100%;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  box-shadow: $light;
+  font-weight: $medium;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: rgba($pink, 0.9);
   }
 }
