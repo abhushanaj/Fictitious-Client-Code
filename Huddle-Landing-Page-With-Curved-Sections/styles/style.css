@@ -1,6 +1,7 @@
 /* Primary Colors */
 /* Neutral Colors*/
 /* Font Weights */
+/* Shadow's */
 *,
 *::after,
 *::before {
@@ -33,3 +34,33 @@ ul {
 
 .u-center {
   text-align: center; }
+
+.logo-box {
+  width: 20rem; }
+  .logo-box img {
+    max-width: 100%; }
+
+.navbar {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.btn {
+  border: 0;
+  outline: 0;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer; }
+
+.btn--primary {
+  border: 1px solid #ff52bf;
+  background: transparent;
+  padding: 1rem 2.2rem;
+  font-size: 1.3rem;
+  border-radius: 4rem;
+  color: #ff52bf;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-in-out; }
+  .btn--primary:hover {
+    background: #ff52bf;
+    color: #fff; }

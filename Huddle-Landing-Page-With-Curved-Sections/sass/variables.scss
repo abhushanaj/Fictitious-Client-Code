@@ -6,10 +6,13 @@ $pink: hsl(322, 100%, 66%);
 
 $very-dark-cyan: hsl(192, 100%, 9%);
 $very-pale-blue: hsl(207, 100%, 98%);
-$white:#fff;
-
+$white: #fff;
 
 /* Font Weights */
-$normal:400;
-$medium:600;
-$bold:700;
+$normal: 400;
+$medium: 600;
+$bold: 700;
+
+/* Shadow's */
+
+$light: 2px 2px 5px rgba(0, 0, 0, 0.4);
