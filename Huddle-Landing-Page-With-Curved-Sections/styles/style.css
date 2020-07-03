@@ -52,7 +52,17 @@ ul {
   margin: 2rem auto;
   font-size: 1.5rem;
   text-align: center;
-  color: rgba(0, 37, 46, 0.7);
+  color: rgba(0, 37, 46, 0.6);
+  font-weight: 600; }
+
+.stats__number {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #00252e; }
+
+.stats__type {
+  font-size: 1.3rem;
+  color: rgba(0, 37, 46, 0.6);
   font-weight: 600; }
 
 .herobox {
@@ -62,6 +72,11 @@ ul {
     margin-top: 4rem; }
     .herobox__image img {
       max-width: 80%; }
+  .herobox__infobox {
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
 
 .logo-box {
   width: 20rem; }

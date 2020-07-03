@@ -1,51 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
-    rel="stylesheet">
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
-  <link rel="stylesheet" href="./styles/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-  
-</head>
-<body>
-  
-  <header class="header">
-    <nav class="navbar u-container">
-      <div class="logo-box">
-        <img src="./images/logo.svg" alt="Huddle logo">
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar u-container">
+        <div class="logo-box">
+          <img src="./images/logo.svg" alt="Huddle logo" />
+        </div>
+        <div class="navbar__cta">
+          <button class="btn btn--primary">Try it free</button>
+        </div>
+      </nav>
+
+      <div class="herobox u-contain-60">
+        <h1 class="heading heading--primary">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="tagline">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <div class="btn__container">
+          <button class="btn btn--secondary">
+            Get Started For Free
+          </button>
+        </div>
+
+        <div class="herobox__image">
+          <img
+            src="./images/screen-mockups.svg"
+            alt="Illustration of screen mockup"
+          />
+        </div>
+
+        <div class="herobox__infobox u-contain-60">
+          <div class="infobox">
+            <div class="iconbox">
+              <img src="./images/icon-communities.svg" alt="Cummunity Icon" />
+            </div>
+            <h2 class="stats__number">1.4k+</h2>
+            <p class="stats__type">Communities Formed</p>
+          </div>
+
+          <div class="infobox">
+            <div class="iconbox">
+              <img src="./images/icon-messages.svg" alt="Message Icon" />
+            </div>
+            <h2 class="stats__number">2.7m+</h2>
+            <p class="stats__type">Communities Formed</p>
+          </div>
+        </div>
       </div>
-      <div class="navbar__cta">
-        <button class="btn btn--primary">Try it free</button>
-      </div>
-    </nav>
-
-    <div class="herobox u-contain-60">
-      <h1 class="heading heading--primary">
-        Build The Community Your Fans Will Love
-      </h1>
-      <p class="tagline">
-        Huddle re-imagines the way we build communities. You have a voice, but so does
-        your audience. Create connections with your users as you engage in genuine discussion.
-      </p>
-      <div class="btn__container">
-        <button class="btn btn--secondary">
-          Get Started For Free
-        </button>
-      </div>
-
-      <div class="herobox__image">
-        <img src="./images/screen-mockups.svg" alt="Illustration of screen mockup">
-      </div>
-    </div>
-  </header>
-
-  
-</body>
+    </header>
+  </body>
 </html>

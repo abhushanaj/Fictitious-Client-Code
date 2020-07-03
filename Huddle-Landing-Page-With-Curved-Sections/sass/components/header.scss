@@ -8,4 +8,11 @@
       max-width: 80%;
     }
   }
+
+  &__infobox {
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
