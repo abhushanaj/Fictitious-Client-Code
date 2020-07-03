@@ -1,0 +1,72 @@
+footer {
+  background-color: $very-dark-cyan;
+  position: relative;
+  margin-top: 20rem;
+  color: $very-pale-blue;
+}
+
+/* Curver Decoration on Footer */
+
+.footer-curve {
+  position: absolute;
+  top: -14rem;
+  left: 0;
+  max-width: 100%;
+}
+
+.footer {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+
+    p {
+      font-size: 1.3rem;
+      margin-top: 3rem;
+
+      span {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  &__right {
+    flex: 0 0 40%;
+    align-self: flex-start;
+    p {
+      font-size: 1.3rem;
+      width: 70%;
+      margin-top: 3rem;
+    }
+  }
+}
+
+/* Newsletter Box on footer */
+
+.newsletter__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+
+  input {
+    height: 100%;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    flex: 0 0 68%;
+  }
+  button {
+    flex: 0 0 30%;
+    border-radius: 0.4rem;
+    padding: 0.9rem 2rem;
+  }
+}

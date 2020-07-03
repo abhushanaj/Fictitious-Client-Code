@@ -48,6 +48,9 @@ ul {
     text-align: center; }
   .heading--secondary {
     font-size: 2.6rem; }
+  .heading--tertiary {
+    font-size: 2.7rem;
+    text-align: center; }
 
 .tagline {
   width: 60%;
@@ -178,3 +181,63 @@ ul {
   position: absolute;
   bottom: -13rem;
   left: 0; }
+
+.community__box {
+  width: 50%;
+  margin: 5rem auto;
+  padding: 2rem 0; }
+
+footer {
+  background-color: #00252e;
+  position: relative;
+  margin-top: 20rem;
+  color: #f5faff; }
+
+/* Curver Decoration on Footer */
+.footer-curve {
+  position: absolute;
+  top: -14rem;
+  left: 0;
+  max-width: 100%; }
+
+.footer {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%; }
+    .footer__left p {
+      font-size: 1.3rem;
+      margin-top: 3rem; }
+      .footer__left p span {
+        margin-left: 2rem; }
+  .footer__right {
+    flex: 0 0 40%;
+    align-self: flex-start; }
+    .footer__right p {
+      font-size: 1.3rem;
+      width: 70%;
+      margin-top: 3rem; }
+
+/* Newsletter Box on footer */
+.newsletter__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem; }
+  .newsletter__box input {
+    height: 100%;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    flex: 0 0 68%; }
+  .newsletter__box button {
+    flex: 0 0 30%;
+    border-radius: 0.4rem;
+    padding: 0.9rem 2rem; }
