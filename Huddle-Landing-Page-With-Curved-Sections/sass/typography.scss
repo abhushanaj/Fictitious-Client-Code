@@ -7,6 +7,10 @@
     font-size: 3rem;
     text-align: center;
   }
+
+  &--secondary {
+    font-size: 2.6rem;
+  }
 }
 
 .tagline {
@@ -29,4 +33,10 @@
     color: rgba($very-dark-cyan, 0.6);
     font-weight: $medium;
   }
+}
+
+.details {
+  margin-top: 2.3rem;
+  font-size: 1.5rem;
+  color: $very-dark-cyan;
 }

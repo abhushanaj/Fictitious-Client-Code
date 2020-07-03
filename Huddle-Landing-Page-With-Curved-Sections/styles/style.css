@@ -46,6 +46,8 @@ ul {
   .heading--primary {
     font-size: 3rem;
     text-align: center; }
+  .heading--secondary {
+    font-size: 2.6rem; }
 
 .tagline {
   width: 60%;
@@ -64,6 +66,11 @@ ul {
   font-size: 1.3rem;
   color: rgba(0, 37, 46, 0.6);
   font-weight: 600; }
+
+.details {
+  margin-top: 2.3rem;
+  font-size: 1.5rem;
+  color: #00252e; }
 
 .herobox {
   margin-top: 8rem; }
@@ -131,3 +138,43 @@ ul {
   transition: all 0.2s ease-in-out; }
   .btn--secondary:hover {
     background-color: rgba(255, 82, 191, 0.9); }
+
+.features {
+  margin: 15rem 0; }
+
+.featurescard {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #f5faff;
+  margin-bottom: 15rem;
+  position: relative; }
+  .featurescard--1 {
+    background: #fff;
+    margin-bottom: 20rem; }
+  .featurescard__content {
+    flex: 0 0 40%; }
+    .featurescard__content--1 {
+      order: 2; }
+  .featurescard__images {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .featurescard__images--2 {
+      order: 1; }
+    .featurescard__images img {
+      max-width: 80%; }
+
+/* Curves used as highlighter*/
+.highlighter--top {
+  max-width: 100%;
+  position: absolute;
+  top: -13rem;
+  left: 0; }
+
+.highlighter--bottom {
+  max-width: 100%;
+  position: absolute;
+  bottom: -13rem;
+  left: 0; }
