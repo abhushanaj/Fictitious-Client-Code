@@ -22,7 +22,11 @@ You will find all the required assets in the `/images` folder. The assets are al
 
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
+## Deployed Solution
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4389012c-ff09-4a42-8ba8-f2eca774188a/deploy-status)](https://app.netlify.com/sites/happy-meitner-9999bd/deploys)
+
+Preview Here: https://happy-meitner-9999bd.netlify.app/
 
 **Have fun building!** 🚀
 

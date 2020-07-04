@@ -28,6 +28,7 @@ The solutions which are present as of now are:
 10.| Huddle-Landing-Page-With-Alternating-Feature-Blocks | [Details](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Huddle-Landing-Page-With-Alternating-Feature-Blocks) | [Netlify](https://modest-shannon-ad55ae.netlify.app/)|
 11.| Article-Preview-Component| [Details](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT) | [Folder_link](https://github.com/abhu-A-J/UI-Challanges/tree/master/Article-Preview-Component) | [Netlify](https://flamboyant-bardeen-1a8b65.netlify.app/)|
 12.| Project-Tracking-Intro-Component| [Details](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e) | [Folder_link](https://github.com/abhu-A-J/Eye-for-an-UI/tree/master/Project-Tracking-Intro-Component) | [Netlify](https://suspicious-poitras-89dea0.netlify.app/)|
+13.| Huddle-Landing-Page-With-Curved-Sections| [Details](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2) | [Folder_link](https://github.com/abhu-A-J/Eye-for-an-UI/tree/master/Huddle-Landing-Page-With-Curved-Sections) | [Netlify](https://happy-meitner-9999bd.netlify.app/)|
 
 
 
