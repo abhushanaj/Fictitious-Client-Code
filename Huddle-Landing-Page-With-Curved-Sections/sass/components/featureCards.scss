@@ -1,5 +1,8 @@
 .features {
   margin: 8rem 0;
+  @media only screen and (max-width: 450px) {
+    margin: 0 auto;
+  }
 }
 
 .featurescard {
@@ -7,16 +10,27 @@
   justify-content: space-evenly;
   align-items: center;
   background: $very-pale-blue;
-  // margin-bottom: 15rem;
   position: relative;
+
+  @media only screen and (max-width: 720px) {
+    flex-direction: column;
+    padding: 3rem 0;
+  }
 
   &--1 {
     background: $white;
-    margin:6rem 0;
+    margin: 6rem 0;
+    @media only screen and(max-width:450px) {
+      margin: 3rem 0;
+    }
   }
 
   &__content {
     flex: 0 0 40%;
+    @media only screen and (max-width: 720px) {
+      order: 2;
+      margin-top: 4rem;
+    }
 
     &--1 {
       order: 2;
@@ -28,6 +42,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media only screen and (max-width: 720px) {
+      order: 1;
+    }
 
     &--2 {
       order: 1;
@@ -35,6 +52,9 @@
 
     img {
       max-width: 80%;
+      @media only screen and (max-width: 720px) {
+        max-width: 50%;
+      }
     }
   }
 }
@@ -44,17 +64,41 @@
 .highlighter--top {
   max-width: 100%;
   width: 100%;
-  // position: absolute;
-  // top: -13rem;
-  // left: 0;
   transform: translateY(1rem);
+  @media only screen and (max-width: 720px) {
+    display: none;
+  }
+
+  &--small {
+    @media only screen and(min-width:451px) {
+      display: none;
+    }
+    @media only screen and(max-width:450px) {
+      display: inline;
+      max-width: 100%;
+      width: 100%;
+      transform: translateY(1rem);
+    }
+  }
 }
 
 .highlighter--bottom {
   max-width: 100%;
-  // position: absolute;
-  // bottom: -13rem;
-  // left: 0;
-  width:100%;
-  transform:translateY(-1rem)
+  width: 100%;
+  transform: translateY(-1rem);
+  @media only screen and (max-width: 720px) {
+    display: none;
+  }
+
+  &--small {
+    @media only screen and(min-width:451px) {
+      display: none;
+    }
+    @media only screen and(max-width:450px) {
+      display: inline;
+      max-width: 100%;
+      width: 100%;
+      transform: translateY(-1rem);
+    }
+  }
 }

@@ -50,8 +50,7 @@ ul {
       width: 70%; } }
   @media only screen and (max-width: 930px) {
     .u-contain-60 {
-      width: 90%;
-      background: pink; } }
+      width: 90%; } }
 
 .heading {
   font-family: "Poppins", sans-serif;
@@ -68,9 +67,25 @@ ul {
         font-size: 2.5rem; } }
   .heading--secondary {
     font-size: 2.6rem; }
+    @media only screen and (max-width: 760px) {
+      .heading--secondary {
+        font-size: 2.4rem; } }
+    @media only screen and (max-width: 720px) {
+      .heading--secondary {
+        text-align: center;
+        margin-bottom: 2rem; } }
+    @media only screen and (max-width: 450px) {
+      .heading--secondary {
+        font-size: 2.1rem; } }
   .heading--tertiary {
     font-size: 2.7rem;
     text-align: center; }
+    @media only screen and (max-width: 670px) {
+      .heading--tertiary {
+        font-size: 2.4rem; } }
+    @media only screen and (max-width: 500px) {
+      .heading--tertiary {
+        font-size: 2rem; } }
 
 .tagline {
   width: 60%;
@@ -97,6 +112,20 @@ ul {
   margin-top: 2.3rem;
   font-size: 1.5rem;
   color: #00252e; }
+  @media only screen and (max-width: 760px) {
+    .details {
+      font-size: 1.3rem; } }
+  @media only screen and (max-width: 720px) {
+    .details {
+      text-align: center;
+      width: 50%;
+      margin: 0 auto; } }
+  @media only screen and (max-width: 540px) {
+    .details {
+      width: 70%; } }
+  @media only screen and (max-width: 450px) {
+    .details {
+      width: 80%; } }
 
 .herobox {
   margin-top: 8rem; }
@@ -198,6 +227,9 @@ ul {
 
 .features {
   margin: 8rem 0; }
+  @media only screen and (max-width: 450px) {
+    .features {
+      margin: 0 auto; } }
 
 .featurescard {
   display: flex;
@@ -205,11 +237,22 @@ ul {
   align-items: center;
   background: #f5faff;
   position: relative; }
+  @media only screen and (max-width: 720px) {
+    .featurescard {
+      flex-direction: column;
+      padding: 3rem 0; } }
   .featurescard--1 {
     background: #fff;
     margin: 6rem 0; }
+    @media only screen and (max-width: 450px) {
+      .featurescard--1 {
+        margin: 3rem 0; } }
   .featurescard__content {
     flex: 0 0 40%; }
+    @media only screen and (max-width: 720px) {
+      .featurescard__content {
+        order: 2;
+        margin-top: 4rem; } }
     .featurescard__content--1 {
       order: 2; }
   .featurescard__images {
@@ -217,26 +260,62 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media only screen and (max-width: 720px) {
+      .featurescard__images {
+        order: 1; } }
     .featurescard__images--2 {
       order: 1; }
     .featurescard__images img {
       max-width: 80%; }
+      @media only screen and (max-width: 720px) {
+        .featurescard__images img {
+          max-width: 50%; } }
 
 /* Curves used as highlighter*/
 .highlighter--top {
   max-width: 100%;
   width: 100%;
   transform: translateY(1rem); }
+  @media only screen and (max-width: 720px) {
+    .highlighter--top {
+      display: none; } }
+  @media only screen and (min-width: 451px) {
+    .highlighter--top--small {
+      display: none; } }
+  @media only screen and (max-width: 450px) {
+    .highlighter--top--small {
+      display: inline;
+      max-width: 100%;
+      width: 100%;
+      transform: translateY(1rem); } }
 
 .highlighter--bottom {
   max-width: 100%;
   width: 100%;
   transform: translateY(-1rem); }
+  @media only screen and (max-width: 720px) {
+    .highlighter--bottom {
+      display: none; } }
+  @media only screen and (min-width: 451px) {
+    .highlighter--bottom--small {
+      display: none; } }
+  @media only screen and (max-width: 450px) {
+    .highlighter--bottom--small {
+      display: inline;
+      max-width: 100%;
+      width: 100%;
+      transform: translateY(-1rem); } }
 
 .community__box {
   width: 50%;
   margin: 5rem auto;
   padding: 2rem 0; }
+  @media only screen and (max-width: 980px) {
+    .community__box {
+      width: 80%; } }
+  @media only screen and (max-width: 670px) {
+    .community__box {
+      width: 90%; } }
 
 footer {
   background-color: #00252e;
@@ -254,22 +333,56 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media only screen and (max-width: 1000px) {
+    .footer {
+      flex-direction: column; } }
   .footer__left {
     display: flex;
     flex-direction: column;
     flex: 0 0 30%; }
+    @media only screen and (max-width: 1000px) {
+      .footer__left {
+        order: 2;
+        flex: 1;
+        width: 50%;
+        align-self: flex-start;
+        margin-top: 5rem; } }
+    @media only screen and (max-width: 810px) {
+      .footer__left {
+        width: 70%; } }
+    @media only screen and (max-width: 400px) {
+      .footer__left {
+        width: 100%; } }
     .footer__left p {
       font-size: 1.3rem;
       margin-top: 3rem; }
+      @media only screen and (max-width: 810px) {
+        .footer__left p {
+          width: 90%; } }
       .footer__left p span {
         margin-left: 2rem; }
   .footer__right {
     flex: 0 0 40%;
     align-self: flex-start; }
+    @media only screen and (max-width: 1000px) {
+      .footer__right {
+        order: 1;
+        width: 50%;
+        flex: 1;
+        align-self: flex-start; } }
+    @media only screen and (max-width: 810px) {
+      .footer__right {
+        width: 70%; } }
+    @media only screen and (max-width: 400px) {
+      .footer__right {
+        width: 100%; } }
     .footer__right p {
       font-size: 1.3rem;
       width: 70%;
       margin-top: 3rem; }
+      @media only screen and (max-width: 810px) {
+        .footer__right p {
+          width: 90%; } }
 
 /* Newsletter Box on footer */
 .newsletter__box {
@@ -277,11 +390,14 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem; }
+  @media only screen and (max-width: 580px) {
+    .newsletter__box {
+      flex-direction: column; } }
   .newsletter__box input {
     height: 100%;
     font-size: 1.3rem;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     border-radius: 0.5rem;
     border: none;
     outline: none;
@@ -290,4 +406,21 @@ footer {
   .newsletter__box button {
     flex: 0 0 30%;
     border-radius: 0.4rem;
-    padding: 0.9rem 2rem; }
+    padding: 0.9rem 2rem;
+    display: block; }
+    @media only screen and (max-width: 580px) {
+      .newsletter__box button {
+        margin-top: 1rem;
+        align-self: flex-end;
+        width: 50%; } }
+
+/* Credits Section*/
+.footer__line {
+  font-size: 2.1rem; }
+
+.footer__credits {
+  font-size: 1.4rem;
+  padding: 1.2rem 0; }
+
+.link {
+  color: #ff52bf; }

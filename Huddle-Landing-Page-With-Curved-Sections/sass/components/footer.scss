@@ -1,20 +1,15 @@
 footer {
   background-color: $very-dark-cyan;
   position: relative;
-  // margin-top: 20rem;
   color: $very-pale-blue;
   margin-top: 0rem;
-  // transform:translateY(-1rem)
 }
 
 /* Curver Decoration on Footer */
 
 .footer-curve {
-  // position: fixed;
-  // top: -14.5rem;
-  // left: 0;
   width: 100%;
-  transform:translateY(1rem);
+  transform: translateY(1rem);
 }
 
 .footer {
@@ -22,15 +17,34 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media only screen and (max-width: 1000px) {
+    flex-direction: column;
+  }
 
   &__left {
     display: flex;
     flex-direction: column;
     flex: 0 0 30%;
+    @media only screen and (max-width: 1000px) {
+      order: 2;
+      flex: 1;
+      width: 50%;
+      align-self: flex-start;
+      margin-top: 5rem;
+    }
+    @media only screen and(max-width:810px) {
+      width: 70%;
+    }
+    @media only screen and(max-width:400px) {
+      width: 100%;
+    }
 
     p {
       font-size: 1.3rem;
       margin-top: 3rem;
+      @media only screen and(max-width:810px) {
+        width: 90%;
+      }
 
       span {
         margin-left: 2rem;
@@ -41,10 +55,26 @@ footer {
   &__right {
     flex: 0 0 40%;
     align-self: flex-start;
+    @media only screen and (max-width: 1000px) {
+      order: 1;
+      width: 50%;
+      flex: 1;
+      align-self: flex-start;
+    }
+    @media only screen and(max-width:810px) {
+      width: 70%;
+    }
+    @media only screen and(max-width:400px) {
+      width: 100%;
+    }
+
     p {
       font-size: 1.3rem;
       width: 70%;
       margin-top: 3rem;
+      @media only screen and(max-width:810px) {
+        width: 90%;
+      }
     }
   }
 }
@@ -56,12 +86,15 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
+  @media only screen and(max-width:580px) {
+    flex-direction: column;
+  }
 
   input {
     height: 100%;
     font-size: 1.3rem;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     border-radius: 0.5rem;
     border: none;
     outline: none;
@@ -72,5 +105,29 @@ footer {
     flex: 0 0 30%;
     border-radius: 0.4rem;
     padding: 0.9rem 2rem;
+    display: block;
+    @media only screen and(max-width:580px) {
+      margin-top: 1rem;
+      align-self: flex-end;
+      width: 50%;
+    }
   }
+}
+
+/* Credits Section*/
+
+.footer {
+  &__line {
+    font-size: 2.1rem;
+  }
+
+  &__credits {
+    font-size: 1.4rem;
+    padding:1.2rem 0;
+  }
+}
+
+
+.link{
+  color:$pink;
 }

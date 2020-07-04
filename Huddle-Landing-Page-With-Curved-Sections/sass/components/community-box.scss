@@ -1,6 +1,13 @@
 .community__box {
   width: 50%;
   margin: 5rem auto;
-//   background-color: pink;
+
   padding: 2rem 0;
+
+  @media only screen and (max-width: 980px) {
+    width: 80%;
+  }
+  @media only screen and (max-width: 670px) {
+    width: 90%;
+  }
 }
