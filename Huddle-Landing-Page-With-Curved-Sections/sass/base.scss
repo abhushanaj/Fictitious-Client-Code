@@ -16,6 +16,9 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: $normal;
   overflow-x: hidden !important;
+  @media only screen and(min-width:1600px) {
+    font-size: 76.5%;
+  }
 }
 
 a {

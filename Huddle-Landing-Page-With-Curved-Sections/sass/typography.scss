@@ -6,6 +6,12 @@
   &--primary {
     font-size: 3rem;
     text-align: center;
+    @media only screen and (max-width: 730px) {
+      font-size: 2.8rem;
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 2.5rem;
+    }
   }
 
   &--secondary {
@@ -25,6 +31,9 @@
   text-align: center;
   color: rgba($very-dark-cyan, 0.6);
   font-weight: $medium;
+  @media only screen and(max-width:1000px) {
+    width: 100%;
+  }
 }
 
 .stats {
@@ -32,6 +41,7 @@
     font-size: 4rem;
     font-weight: $bold;
     color: $very-dark-cyan;
+    
   }
   &__type {
     font-size: 1.3rem;
