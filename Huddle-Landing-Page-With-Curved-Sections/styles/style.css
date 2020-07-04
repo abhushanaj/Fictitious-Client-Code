@@ -17,7 +17,8 @@ body {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  overflow-x: hidden !important; }
 
 a {
   text-decoration: none; }
@@ -150,11 +151,10 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   background: #f5faff;
-  margin-bottom: 15rem;
   position: relative; }
   .featurescard--1 {
     background: #fff;
-    margin-bottom: 20rem; }
+    margin: 6rem 0; }
   .featurescard__content {
     flex: 0 0 40%; }
     .featurescard__content--1 {
@@ -172,15 +172,13 @@ ul {
 /* Curves used as highlighter*/
 .highlighter--top {
   max-width: 100%;
-  position: absolute;
-  top: -13rem;
-  left: 0; }
+  width: 100%;
+  transform: translateY(1rem); }
 
 .highlighter--bottom {
   max-width: 100%;
-  position: absolute;
-  bottom: -13rem;
-  left: 0; }
+  width: 100%;
+  transform: translateY(-1rem); }
 
 .community__box {
   width: 50%;
@@ -190,18 +188,16 @@ ul {
 footer {
   background-color: #00252e;
   position: relative;
-  margin-top: 20rem;
-  color: #f5faff; }
+  color: #f5faff;
+  margin-top: 0rem; }
 
 /* Curver Decoration on Footer */
 .footer-curve {
-  position: absolute;
-  top: -14rem;
-  left: 0;
-  max-width: 100%; }
+  width: 100%;
+  transform: translateY(1rem); }
 
 .footer {
-  padding: 5rem 0;
+  padding: 6rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -232,11 +228,12 @@ footer {
     height: 100%;
     font-size: 1.3rem;
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 0.5rem;
     border: none;
     outline: none;
-    flex: 0 0 68%; }
+    flex: 0 0 68%;
+    font-family: "Poppins", sans-serif; }
   .newsletter__box button {
     flex: 0 0 30%;
     border-radius: 0.4rem;
