@@ -43,3 +43,124 @@ img {
 
 .u-center {
   text-align: center; }
+
+.u-width-60 {
+  width: 45%; }
+
+.heading {
+  font-weight: 700;
+  font-family: "DM Serif Display", sans-serif; }
+  .heading--primary {
+    padding-top: 7rem;
+    font-size: 5.2rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1; }
+    .heading--primary span {
+      display: block; }
+
+.tagline {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  color: #837d87; }
+
+.pattern-header-left {
+  position: absolute;
+  bottom: -50%;
+  left: -1rem;
+  height: 70%; }
+  @media only screen and (min-width: 1800px) {
+    .pattern-header-left {
+      display: none; } }
+
+.pattern-header-right {
+  position: absolute;
+  top: 0;
+  right: -1rem;
+  height: 70%; }
+  @media only screen and (min-width: 1800px) {
+    .pattern-header-right {
+      display: none; } }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  background: #fff; }
+  .navbar__items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+  .navbar__item {
+    margin: 0 1rem; }
+  .navbar__link {
+    font-size: 1.3rem;
+    color: #837d87;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out; }
+    .navbar__link:hover {
+      color: #2b272f; }
+
+.herobox {
+  background: #2d2640;
+  color: #fafafa;
+  position: relative;
+  padding: 8rem 0; }
+  .herobox .u-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative; }
+  .herobox__content {
+    flex: 0 0 50%; }
+  .herobox__image {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .herobox__image img {
+      max-width: 80%; }
+
+.line {
+  width: 20%;
+  padding-top: 5rem; }
+
+/* Button Container */
+.btn__container {
+  width: max-content;
+  margin-top: 2rem; }
+
+.btn {
+  cursor: pointer; }
+  .btn--special {
+    font-size: 1.3rem;
+    color: #2b272f;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 2px solid #2b272f;
+    padding: 0.5rem 1.5rem;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out; }
+    .btn--special:hover {
+      background: #2b272f;
+      color: #fafafa; }
+  .btn--primary {
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    font-size: 1.6rem;
+    background: transparent;
+    color: #fafafa;
+    font-family: "Karla", sans-serif;
+    border: 1px solid #fafafa;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    transition: all 0.2s ease-in-out; }
+    .btn--primary:hover {
+      background: #fafafa;
+      color: #2b272f; }

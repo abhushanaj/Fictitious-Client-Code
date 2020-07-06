@@ -1,0 +1,23 @@
+
+
+.heading {
+  font-weight: $bold;
+  font-family: "DM Serif Display", sans-serif;
+
+  &--primary {
+    padding-top: 7rem;
+    font-size: 5.2rem;
+    letter-spacing: 1px;
+    font-weight: $normal;
+    line-height: 1;
+    span {
+      display: block;
+    }
+  }
+}
+
+.tagline {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  color: $dark-grayish-violet;
+}

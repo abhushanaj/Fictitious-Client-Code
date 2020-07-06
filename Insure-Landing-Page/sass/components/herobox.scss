@@ -1,0 +1,33 @@
+.herobox {
+  background: $dark-violet;
+  color: $very-light-gray;
+  position: relative;
+  padding: 8rem 0;
+  .u-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+  }
+
+  &__content {
+    flex: 0 0 50%;
+  }
+
+  &__image {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    img {
+      max-width: 80%;
+    }
+  }
+}
+
+.line {
+  width: 20%;
+  padding-top: 5rem;
+}
