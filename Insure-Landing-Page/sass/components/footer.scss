@@ -1,7 +1,7 @@
 footer {
   background: $very-light-gray;
-  min-height: 30vh;
   padding: 4rem;
+  position: relative;
 }
 
 .footer {
@@ -45,7 +45,11 @@ footer {
     margin-bottom: 2rem;
     font-weight: $normal;
   }
-  
+
+  &__item:not(:first-child) {
+    margin-bottom: 0.5rem;
+  }
+
   &__link {
     font-size: 1.6rem;
     text-transform: uppercase;

@@ -28,4 +28,12 @@
   height: 100%;
 }
 
+/* Background pattern on footer-left side */
 
+.pattern-footer-left {
+  top: 0;
+  left: -5rem;
+  position: absolute;
+  height: 70%;
+  z-index: 10;
+}

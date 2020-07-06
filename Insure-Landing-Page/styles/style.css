@@ -109,6 +109,14 @@ img {
   position: absolute;
   height: 100%; }
 
+/* Background pattern on footer-left side */
+.pattern-footer-left {
+  top: 0;
+  left: -5rem;
+  position: absolute;
+  height: 70%;
+  z-index: 10; }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -225,8 +233,8 @@ img {
 
 footer {
   background: #fafafa;
-  min-height: 30vh;
-  padding: 4rem; }
+  padding: 4rem;
+  position: relative; }
 
 .footer__upper {
   display: flex;
@@ -257,6 +265,9 @@ footer {
 .footer__item:first-child {
   margin-bottom: 2rem;
   font-weight: 400; }
+
+.footer__item:not(:first-child) {
+  margin-bottom: 0.5rem; }
 
 .footer__link {
   font-size: 1.6rem;
