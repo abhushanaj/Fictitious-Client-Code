@@ -1,5 +1,3 @@
-
-
 .heading {
   font-weight: $bold;
   font-family: "DM Serif Display", sans-serif;
@@ -14,10 +12,25 @@
       display: block;
     }
   }
+
+  &--secondary {
+    font-size: 4rem;
+  }
+
+  &--tertiary {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
 }
 
 .tagline {
   font-size: 1.6rem;
   margin-top: 3rem;
   color: $dark-grayish-violet;
+}
+
+.details {
+  font-size: 1.6rem;
+  color: $dark-grayish-violet;
+  margin-top: 2rem;
 }

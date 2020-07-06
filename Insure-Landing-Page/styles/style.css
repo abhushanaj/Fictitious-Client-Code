@@ -58,11 +58,21 @@ img {
     line-height: 1; }
     .heading--primary span {
       display: block; }
+  .heading--secondary {
+    font-size: 4rem; }
+  .heading--tertiary {
+    margin-top: 2rem;
+    font-size: 2rem; }
 
 .tagline {
   font-size: 1.6rem;
   margin-top: 3rem;
   color: #837d87; }
+
+.details {
+  font-size: 1.6rem;
+  color: #837d87;
+  margin-top: 2rem; }
 
 .pattern-header-left {
   position: absolute;
@@ -129,6 +139,22 @@ img {
 .line {
   width: 20%;
   padding-top: 5rem; }
+
+.feature-section {
+  margin-top: 20rem;
+  min-height: 90vh; }
+
+.feature {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .feature__card {
+    margin-right: 3rem; }
+
+.icon-box {
+  width: 5rem;
+  height: 5rem; }
 
 /* Button Container */
 .btn__container {
