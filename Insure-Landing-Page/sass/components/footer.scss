@@ -1,0 +1,59 @@
+footer {
+  background: $very-light-gray;
+  min-height: 30vh;
+  padding: 4rem;
+}
+
+.footer {
+  &__upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  &__lower {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+}
+
+/* Socials Icons */
+
+.social {
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__item {
+    margin: 0rem 1rem;
+  }
+}
+
+/* Footer Links */
+.footer {
+  &__items {
+    align-self: flex-start;
+  }
+
+  &__item:first-child {
+    margin-bottom: 2rem;
+    font-weight: $normal;
+  }
+  
+  &__link {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: $very-dark-violet;
+    font-weight: $bold;
+
+    &--1 {
+      color: $dark-grayish-violet;
+    }
+  }
+}

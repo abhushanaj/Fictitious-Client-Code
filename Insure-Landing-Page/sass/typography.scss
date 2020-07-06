@@ -21,6 +21,17 @@
     margin-top: 2rem;
     font-size: 2rem;
   }
+
+  &--cta {
+    font-size: 4.2rem;
+    color: $very-light-gray;
+    font-weight: $normal;
+    width: 100%;
+    line-height: 1;
+    span {
+      display: block;
+    }
+  }
 }
 
 .tagline {

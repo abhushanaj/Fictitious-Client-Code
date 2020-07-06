@@ -63,6 +63,14 @@ img {
   .heading--tertiary {
     margin-top: 2rem;
     font-size: 2rem; }
+  .heading--cta {
+    font-size: 4.2rem;
+    color: #fafafa;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1; }
+    .heading--cta span {
+      display: block; }
 
 .tagline {
   font-size: 1.6rem;
@@ -74,6 +82,7 @@ img {
   color: #837d87;
   margin-top: 2rem; }
 
+/* Background pattern on header -left side */
 .pattern-header-left {
   position: absolute;
   bottom: -50%;
@@ -83,6 +92,7 @@ img {
     .pattern-header-left {
       display: none; } }
 
+/* Background pattern on header-right side */
 .pattern-header-right {
   position: absolute;
   top: 0;
@@ -91,6 +101,13 @@ img {
   @media only screen and (min-width: 1800px) {
     .pattern-header-right {
       display: none; } }
+
+/* Background pattern on how we work-right side */
+.pattern-features-right {
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 100%; }
 
 .navbar {
   display: flex;
@@ -141,8 +158,7 @@ img {
   padding-top: 5rem; }
 
 .feature-section {
-  margin-top: 20rem;
-  min-height: 90vh; }
+  margin-top: 20rem; }
 
 .feature {
   margin-top: 5rem;
@@ -190,3 +206,62 @@ img {
     .btn--primary:hover {
       background: #fafafa;
       color: #2b272f; }
+
+.cta-section {
+  background: #2d2640;
+  margin: 7rem auto;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden; }
+
+.cta__content {
+  width: 50%; }
+
+.cta__button-container {
+  z-index: 10; }
+
+footer {
+  background: #fafafa;
+  min-height: 30vh;
+  padding: 4rem; }
+
+.footer__upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem; }
+
+.footer__lower {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; }
+
+/* Socials Icons */
+.social__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+.social__item {
+  margin: 0rem 1rem; }
+
+/* Footer Links */
+.footer__items {
+  align-self: flex-start; }
+
+.footer__item:first-child {
+  margin-bottom: 2rem;
+  font-weight: 400; }
+
+.footer__link {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #2b272f;
+  font-weight: 700; }
+  .footer__link--1 {
+    color: #837d87; }

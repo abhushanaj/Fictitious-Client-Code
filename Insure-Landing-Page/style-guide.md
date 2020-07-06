@@ -46,37 +46,6 @@ You can use either use the social icons provided or load in a font icon library.
   
 
 
-
-
-  People First
-
-  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-  sure you’re covered when you need it.
-
-  Find out more about how we work
-
-  How we work
-
-  Our company
-
-  How we work
-  Why Insure?
-  View plans
-  Reviews
-
-  Help me
-
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
-
-  Contact
-
-  Sales
-  Support
-  Live chat
-
   Others
 
   Careers

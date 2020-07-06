@@ -1,3 +1,4 @@
+/* Background pattern on header -left side */
 .pattern-header-left {
   position: absolute;
   bottom: -50%;
@@ -8,6 +9,7 @@
   }
 }
 
+/* Background pattern on header-right side */
 .pattern-header-right {
   position: absolute;
   top: 0;
@@ -17,3 +19,13 @@
     display: none;
   }
 }
+
+/* Background pattern on how we work-right side */
+.pattern-features-right {
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+}
+
+

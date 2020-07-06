@@ -1,0 +1,20 @@
+.cta-section {
+  background: $dark-violet;
+  margin: 7rem auto;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta {
+  &__content {
+    width: 50%;
+  }
+
+  &__button-container {
+    z-index: 10;
+  }
+}
