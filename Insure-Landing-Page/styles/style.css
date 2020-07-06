@@ -1,0 +1,45 @@
+/* Primary Colors */
+/* Neutral Colors */
+/* Font Weights */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  /* 1rem=10px */ }
+
+body {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden !important; }
+  @media only screen and (min-width: 1600px) {
+    body {
+      font-size: 76.5%; } }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+img {
+  max-width: 100%; }
+
+.u-container {
+  max-width: 120rem;
+  margin: 0 auto; }
+  @media only screen and (max-width: 1200px) {
+    .u-container {
+      width: 90%; } }
+  @media only screen and (min-width: 1600px) {
+    .u-container {
+      max-width: 1440px; } }
+
+.u-center {
+  text-align: center; }
