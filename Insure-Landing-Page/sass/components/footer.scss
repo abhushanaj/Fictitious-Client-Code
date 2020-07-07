@@ -57,14 +57,15 @@ footer {
 
   &__items {
     align-self: flex-start;
-    @media only screen and(max-width:740px){
-      align-self:center;
+    @media only screen and(max-width:740px) {
+      align-self: center;
     }
-    
   }
 
   &__item {
-    text-align: center;
+    @media only screen and(max-width:740px) {
+      text-align: center;
+    }
   }
 
   &__item:first-child {
@@ -88,5 +89,32 @@ footer {
     &--1 {
       color: $dark-grayish-violet;
     }
+  }
+}
+
+/* Footer sections for credits */
+
+.footer {
+  &--special {
+    padding-top: 5rem;
+  }
+
+  &__line {
+    font-size: 2rem;
+    @media only screen and(max-width:500px) {
+      font-size: 1.7rem;
+    }
+  }
+
+  &__credits {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+}
+
+.link {
+  color: $grayish-blue;
+  &:hover {
+    color: cyan;
   }
 }

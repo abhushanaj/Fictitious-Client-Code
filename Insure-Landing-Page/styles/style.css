@@ -479,8 +479,9 @@ footer {
     .footer__items {
       align-self: center; } }
 
-.footer__item {
-  text-align: center; }
+@media only screen and (max-width: 740px) {
+  .footer__item {
+    text-align: center; } }
 
 .footer__item:first-child {
   margin-bottom: 2rem;
@@ -499,3 +500,22 @@ footer {
   font-weight: 700; }
   .footer__link--1 {
     color: #837d87; }
+
+/* Footer sections for credits */
+.footer--special {
+  padding-top: 5rem; }
+
+.footer__line {
+  font-size: 2rem; }
+  @media only screen and (max-width: 500px) {
+    .footer__line {
+      font-size: 1.7rem; } }
+
+.footer__credits {
+  font-size: 1.5rem;
+  margin: 1rem 0; }
+
+.link {
+  color: #95a9c6; }
+  .link:hover {
+    color: cyan; }
