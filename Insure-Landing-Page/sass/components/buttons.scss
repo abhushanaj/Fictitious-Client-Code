@@ -2,6 +2,10 @@
 .btn__container {
   width: max-content;
   margin-top: 2rem;
+
+  @media only screen and(max-width:670px) {
+    margin: 2rem auto;
+  }
 }
 
 .btn {

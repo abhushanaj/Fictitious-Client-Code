@@ -14,6 +14,9 @@
   text-align: center;
 }
 
-.u-width-60{
-  width:45%;
+.u-width-60 {
+  width: 45%;
+  @media only screen and(max-width:670px) {
+    width: 90%;
+  }
 }
