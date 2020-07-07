@@ -9,13 +9,16 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    @media only screen and(max-width:686px) {
+    @media only screen and(max-width:535px) {
       display: none;
     }
   }
 
   &__item {
     margin: 0 1rem;
+    @media only screen and(max-width:686px) {
+      margin: 0 0.5rem;
+    }
   }
   &__link {
     font-size: 1.3rem;
@@ -24,8 +27,64 @@
     font-weight: $bold;
     letter-spacing: 2px;
     transition: all 0.5s ease-in-out;
+    @media only screen and(max-width:686px) {
+      font-size: 1rem;
+    }
     &:hover {
       color: $very-dark-violet;
     }
+  }
+}
+
+/* Mobile Navigation */
+
+.hamburger {
+  cursor: pointer;
+  @media only screen and(min-width:536px) {
+    display: none;
+  }
+}
+
+.navbar--small {
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  background: $very-dark-violet;
+  top: 6rem;
+  left: 0;
+  z-index: 100;
+  overflow: hidden;
+  @media only screen and(max-width:375px) {
+    top: 6rem;
+    height: 90vh;
+  }
+
+  @media only screen and(max-width:320px) {
+    height: 80vh;
+  }
+
+  @media only screen and(min-width:536px) {
+    display: none;
+  }
+
+  &__items {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  &__item {
+    margin-top: 1.5rem;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: $very-light-gray;
+    font-size: 2rem;
+    text-align: center;
   }
 }
