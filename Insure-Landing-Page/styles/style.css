@@ -60,6 +60,9 @@ img {
       display: block; }
   .heading--secondary {
     font-size: 4rem; }
+    @media only screen and (max-width: 720px) {
+      .heading--secondary {
+        text-align: center; } }
   .heading--tertiary {
     margin-top: 2rem;
     font-size: 2rem; }
@@ -87,6 +90,9 @@ img {
   font-size: 1.6rem;
   color: #837d87;
   margin-top: 2rem; }
+  @media only screen and (max-width: 720px) {
+    .details {
+      text-align: center; } }
 
 /* Background pattern on header -left side */
 .pattern-header-left {
@@ -194,14 +200,33 @@ img {
 
 .feature-section {
   margin-top: 20rem; }
+  @media only screen and (max-width: 720px) {
+    .feature-section {
+      margin-top: 10rem; } }
 
 .feature {
   margin-top: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media only screen and (max-width: 720px) {
+    .feature {
+      flex-direction: column;
+      margin-top: 3rem; } }
   .feature__card {
     margin-right: 3rem; }
+    @media only screen and (max-width: 720px) {
+      .feature__card {
+        margin-right: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 3rem; } }
+    @media only screen and (max-width: 500px) {
+      .feature__card {
+        width: 90%; } }
 
 .icon-box {
   width: 5rem;
