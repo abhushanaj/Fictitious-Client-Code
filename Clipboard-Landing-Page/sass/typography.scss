@@ -1,0 +1,19 @@
+.heading {
+  color: $dark-grayish-blue;
+  text-align: center;
+  font-weight: $bold;
+
+  &--primary {
+    font-size: 3rem;
+  }
+}
+
+.text {
+  color: $grayish-blue;
+  font-size: 1.4rem;
+}
+
+.tagline {
+  margin: 1rem 0;
+  text-align: center;
+}
