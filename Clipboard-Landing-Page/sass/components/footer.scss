@@ -1,0 +1,75 @@
+footer {
+  margin-top: 10rem;
+  background: rgba($grayish-blue, 0.2);
+  padding: 3rem 0;
+
+  @media only screen and(max-width:600px) {
+    margin-top: 5rem;
+  }
+}
+
+.footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+
+  @media only screen and(max-width:700px) {
+    flex-direction: column;
+  }
+
+  &__logo {
+    width: 5rem;
+    img {
+      max-width: 100%;
+    }
+    @media only screen and(max-width:700px) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__items {
+    align-self: flex-start;
+
+    @media only screen and(max-width:700px) {
+      align-self: center;
+      text-align: center;
+    }
+  }
+
+  &__item {
+    @media only screen and(max-width:700px) {
+      margin: 1rem;
+    }
+  }
+  &__link {
+    font-size: 1.5rem;
+    color: $dark-grayish-blue;
+
+    &:hover {
+      color: $strong-cyan;
+    }
+  }
+
+  /* Special Social Footer Items */
+
+  &__items--social {
+    display: flex;
+    justify-content: space-evenly;
+    @media only screen and(max-width:700px) {
+      margin-top: 2rem;
+    }
+  }
+
+  &__item--social {
+    margin: 0 1.5rem;
+  }
+
+  &__link--social {
+    &:hover svg path {
+      fill: $strong-cyan;
+    }
+  }
+}

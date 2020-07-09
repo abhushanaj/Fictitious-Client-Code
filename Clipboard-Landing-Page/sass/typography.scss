@@ -5,6 +5,9 @@
 
   &--primary {
     font-size: 3rem;
+    @media only screen and(max-width:660px) {
+      font-size: 2.5rem;
+    }
   }
 
   &--secondary {
@@ -14,6 +17,9 @@
   &--tertiary {
     text-align: left;
     font-size: 2rem;
+    @media only screen and(max-width:810px) {
+      text-align: center;
+    }
   }
 
   &--desc {

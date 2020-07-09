@@ -2,13 +2,10 @@
   background: url("../../images/bg-header-desktop.png");
   background-position: top;
   background-repeat: no-repeat;
-}
-
-.logo-box {
-  padding-top: 8rem;
-  width: 8rem;
-  margin: 0 auto;
-  img {
-    max-width: 100%;
+  @media only screen and(max-width:400px) {
+    background: url("../../images/bg-header-mobile.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
