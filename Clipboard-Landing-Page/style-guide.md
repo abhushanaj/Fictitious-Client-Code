@@ -39,14 +39,3 @@ For the social icons, you can use the SVGs provided or a font icon library. Some
 - [Ionicons](https://ionicons.com)
 
  
-
-
-
-
-
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide

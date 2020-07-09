@@ -312,3 +312,19 @@ footer {
     margin: 0 1.5rem; }
   .footer__link--social:hover svg path {
     fill: #26baa4; }
+
+/* Special Credits Section */
+.footer--special {
+  padding-top: 4rem; }
+
+.footer__line {
+  font-size: 2rem; }
+
+.footer__credits {
+  font-size: 1.4rem;
+  margin: 1rem 0; }
+
+.link {
+  color: #6173ff; }
+  .link:hover {
+    color: #26baa4; }
