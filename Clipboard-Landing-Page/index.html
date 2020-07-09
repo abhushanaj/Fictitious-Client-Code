@@ -1,46 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="./styles/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>Frontend Mentor | Clipboard landing page</title>
+    <link rel="stylesheet" href="./styles/style.css" />
 
+    <title>Frontend Mentor | Clipboard landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="u-container">
+        <div class="logo-box">
+          <img src="./images/logo.svg" alt="Clipboard Logo" />
+        </div>
 
-</head>
-<body>
+        <div class="herobox u-width-50">
+          <h1 class="heading heading--primary">
+            A history of everything you copy
+          </h1>
+          <p class="text tagline">
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+          <div class="btn-container">
+            <button class="btn btn--green">Download for iOS</button>
+            <button class="btn btn--blue">Download for Mac</button>
+          </div>
+        </div>
 
-  <header class="header">
-
-    <div class="u-container">
-      <div class="logo-box">
-        <img src="./images/logo.svg" alt="Clipboard Logo">
+        <div class="contentbox u-width-50">
+          <h2 class="heading heading--secondary">
+            Keep track of your snippets
+          </h2>
+          <p class="text tagline">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
+        </div>
       </div>
+    </header>
 
-      <div class="herobox u-width-50">
-        <h1 class="heading heading--primary">
-          A history of everything you copy
-        </h1>
-        <p class="text tagline">
-          Clipboard allows you to track and organize everything you
-        copy. Instantly access your clipboard on all your devices.
-      </p>
-      <div class="btn-container">
-        <button class="btn btn--green">Download for iOS</button>
-        <button class="btn btn--blue">Download for Mac</button>
+    <section class="about">
+      <div class="about__image">
+        <img src="./images/image-computer.png" alt="" />
       </div>
+      <div class="about__content">
+        <div class="about__lists">
+          <h3 class="heading heading--tertiary">
+            Quick Search
+          </h3>
+          <p class="text about__detail">
+            Easily search your snippets by content, category, web address,
+            application, and more.
+          </p>
+        </div>
+
+        <div class="about__lists">
+          <h3 class="heading heading--tertiary">
+            iCloud Sync
+          </h3>
+          <p class="text about__detail">
+            Instantly saves and syncs snippets across all your devices.
+          </p>
+        </div>
+
+        <div class="about__lists">
+          <h3 class="heading heading--tertiary">
+            Complete History
+          </h3>
+          <p class="text about__detail">
+            Retrieve any snippets from the first moment you started using the
+            app.
+          </p>
+        </div>
       </div>
-    </div>
-
-  </header>
-
-  
-  
-</body>
+    </section>
+  </body>
 </html>

@@ -51,6 +51,11 @@ img {
   font-weight: 600; }
   .heading--primary {
     font-size: 3rem; }
+  .heading--secondary {
+    font-size: 2.3rem; }
+  .heading--tertiary {
+    text-align: left;
+    font-size: 2rem; }
 
 .text {
   color: #9fabb2;
@@ -74,6 +79,28 @@ img {
 
 .herobox {
   margin: 2rem auto; }
+
+.contentbox {
+  margin: 4rem auto; }
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem auto; }
+  .about__image {
+    flex: 0 0 50%; }
+    .about__image img {
+      max-width: 100%;
+      transform: translateX(-6rem); }
+  .about__content {
+    flex: 0 0 50%;
+    padding: 0 4rem; }
+
+/* Information for about section */
+.about__lists {
+  width: 60%;
+  margin-top: 2rem; }
 
 /* Button Container */
 .btn-container {
