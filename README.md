@@ -30,6 +30,7 @@ The solutions which are present as of now are:
 12.| Project-Tracking-Intro-Component| [Details](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e) | [Folder_link](https://github.com/abhu-A-J/Eye-for-an-UI/tree/master/Project-Tracking-Intro-Component) | [Netlify](https://suspicious-poitras-89dea0.netlify.app/)|
 13.| Huddle-Landing-Page-With-Curved-Sections| [Details](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2) | [Folder_link](https://github.com/abhu-A-J/Eye-for-an-UI/tree/master/Huddle-Landing-Page-With-Curved-Sections) | [Netlify](https://happy-meitner-9999bd.netlify.app/)|
 14.| Insure-Landing-Page| [Details](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8) | [Folder_link](https://github.com/abhu-A-J/Eye-for-an-UI/tree/master/Insure-Landing-Page) | [Netlify](https://trusting-thompson-f5fbc0.netlify.app/)|
+15.| Clipboard-Landing-Page| [Details](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9) | [Folder_link](https://github.com/abhu-A-J/Eye-for-an-UI/tree/master/Clipboard-Landing-Page) | [Netlify](https://infallible-fermi-370e11.netlify.app/)|
 
 
 
