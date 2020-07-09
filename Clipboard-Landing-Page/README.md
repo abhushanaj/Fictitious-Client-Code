@@ -36,6 +36,9 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 
 ## Deployed Solution
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e2585fd-d2cc-478b-8f4a-77b488738275/deploy-status)](https://app.netlify.com/sites/infallible-fermi-370e11/deploys)
+
+Preview Here: https://infallible-fermi-370e11.netlify.app/
 
 
 **Have fun building!** 🚀
