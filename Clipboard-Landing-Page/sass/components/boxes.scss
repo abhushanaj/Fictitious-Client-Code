@@ -1,0 +1,21 @@
+.herobox {
+  margin: 2rem auto;
+}
+
+.contentbox {
+  margin: 4rem auto;
+}
+
+.imagebox {
+  margin: auto;
+  width: 50%;
+  img {
+    max-width: 100%;
+  }
+}
+
+.iconbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

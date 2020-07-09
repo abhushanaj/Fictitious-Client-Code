@@ -56,6 +56,9 @@ img {
   .heading--tertiary {
     text-align: left;
     font-size: 2rem; }
+  .heading--desc {
+    font-size: 1.7rem;
+    margin-top: 2rem; }
 
 .text {
   color: #9fabb2;
@@ -82,6 +85,17 @@ img {
 
 .contentbox {
   margin: 4rem auto; }
+
+.imagebox {
+  margin: auto;
+  width: 50%; }
+  .imagebox img {
+    max-width: 100%; }
+
+.iconbox {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .about {
   display: flex;
@@ -132,3 +146,18 @@ img {
     background: #6173ff; }
     .btn--blue:hover {
       background: rgba(97, 115, 255, 0.8); }
+
+.features {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.feature__card {
+  margin: 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem; }
