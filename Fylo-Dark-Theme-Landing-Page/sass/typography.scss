@@ -1,0 +1,30 @@
+.main-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: $bold;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 70%;
+  margin: 0rem auto;
+  margin-top: 2rem;
+  color: rgba($white, 0.5);
+}
+
+.secondary-heading {
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.details {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  color: rgba($white, 0.5);
+}

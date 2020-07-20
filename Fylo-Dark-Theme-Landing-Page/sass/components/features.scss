@@ -1,0 +1,33 @@
+.features {
+  padding-top: 10rem;
+  min-height: 100vh;
+
+  &__grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+// Styling for the cards
+
+.feature {
+  &__image {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  &__card {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
+    color: $white;
+  }
+}
