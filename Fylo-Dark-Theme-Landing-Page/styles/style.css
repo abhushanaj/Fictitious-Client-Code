@@ -46,6 +46,19 @@ img {
   margin: 0 auto;
   font-weight: 700; }
 
+.secondary-heading {
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif; }
+
+.tertiary-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  text-align: left;
+  width: 50%;
+  line-height: 1.2; }
+
 .tagline {
   font-size: 1.5rem;
   text-align: center;
@@ -54,16 +67,17 @@ img {
   margin-top: 2rem;
   color: rgba(255, 255, 255, 0.5); }
 
-.secondary-heading {
-  margin: 1rem;
-  text-align: center;
-  font-size: 1.8rem; }
-
 .details {
   text-align: center;
   width: 80%;
   margin: 0 auto;
   color: rgba(255, 255, 255, 0.5); }
+
+.context {
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  width: 80%;
+  font-size: 1.3rem; }
 
 .u-container {
   max-width: 120rem;
@@ -144,10 +158,25 @@ img {
     transition: all 0.5s ease-in-out; }
     .btn--primary:hover {
       background: linear-gradient(to right, #339ecc, #65e2d9); }
+  .btn--secondary {
+    color: #65e2d9;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 400;
+    border-bottom: 1px solid #65e2d9;
+    width: max-content;
+    padding-bottom: 0.4rem;
+    transition: all 0.5s ease-in-out; }
+    .btn--secondary:hover {
+      color: #339ecc;
+      border-bottom: 1px solid #339ecc; }
+    .btn--secondary img {
+      margin-left: 1rem; }
 
 .features {
-  padding-top: 10rem;
-  min-height: 100vh; }
+  padding-top: 3rem; }
   .features__grid {
     display: flex;
     justify-content: space-between;
@@ -170,3 +199,15 @@ img {
   margin: 2rem;
   padding: 2rem;
   color: #fff; }
+
+.productivity-banner {
+  margin-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .productivity-banner__image {
+    flex: 0 0 40%; }
+  .productivity-banner__content {
+    flex: 0 0 50%;
+    color: #fff; }

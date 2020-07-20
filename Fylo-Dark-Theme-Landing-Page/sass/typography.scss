@@ -7,6 +7,21 @@
   font-weight: $bold;
 }
 
+.secondary-heading {
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.tertiary-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  text-align: left;
+  width: 50%;
+  line-height: 1.2;
+}
+
 .tagline {
   font-size: 1.5rem;
   text-align: center;
@@ -16,15 +31,16 @@
   color: rgba($white, 0.5);
 }
 
-.secondary-heading {
-  margin: 1rem;
-  text-align: center;
-  font-size: 1.8rem;
-}
-
 .details {
   text-align: center;
   width: 80%;
   margin: 0 auto;
   color: rgba($white, 0.5);
+}
+
+.context {
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  width: 80%;
+  font-size: 1.3rem;
 }
