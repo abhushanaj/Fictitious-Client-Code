@@ -255,3 +255,61 @@ img {
   .productivity-banner__content {
     flex: 0 0 50%;
     color: #fff; }
+
+footer {
+  background: #0b1523;
+  padding: 10rem;
+  min-height: 20vh; }
+
+.footer {
+  color: #fff; }
+  .footer__content {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+
+.footer__contentbox {
+  min-height: 10rem; }
+  .footer__contentbox:not(:last-child) {
+    margin-right: 4rem; }
+  .footer__contentbox--1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 25%; }
+
+.footer-tagline {
+  font-size: 1.2rem;
+  padding-left: 2rem; }
+
+/* Footer Items Styles */
+.footer__items {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex; }
+
+.footer__item {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: left; }
+  .footer__item img {
+    margin-right: 1rem; }
+
+.footer__link {
+  color: #fff;
+  font-size: 1.3rem; }
+  .footer__link:hover {
+    color: #339ecc; }
+
+/* Social links on Footer*/
+.social__items {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.social__item {
+  padding: 0 1rem; }
