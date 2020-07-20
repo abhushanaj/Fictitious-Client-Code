@@ -49,8 +49,6 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)
 
-See how Fylo works
-
 Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
 become a well-oiled collaboration machine.
 
