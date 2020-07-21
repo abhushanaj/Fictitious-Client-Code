@@ -423,8 +423,7 @@ img {
 footer {
   background: #0b1523;
   position: relative;
-  padding-top: 25rem;
-  padding-bottom: 10rem; }
+  padding-top: 25rem; }
   @media only screen and (max-width: 1200px) {
     footer {
       padding-top: 25rem; } }
@@ -501,3 +500,20 @@ footer {
 
 .social__item {
   padding: 0 1rem; }
+
+/* Styling for credits section */
+.footer__line {
+  font-size: 2rem; }
+
+.footer__credits {
+  margin: 1rem 0;
+  font-size: 1.4rem; }
+
+.link {
+  color: #65e2d9; }
+  .link:hover {
+    color: #339ecc; }
+
+.footer--special {
+  margin-top: 4rem;
+  padding-bottom: 2rem; }

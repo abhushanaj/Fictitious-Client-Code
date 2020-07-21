@@ -2,7 +2,6 @@ footer {
   background: $dark-blue-300;
   position: relative;
   padding-top: 25rem;
-  padding-bottom: 10rem;
   @media only screen and (max-width: 1200px) {
     padding-top: 25rem;
   }
@@ -99,4 +98,29 @@ footer {
 
 .social__item {
   padding: 0 1rem;
+}
+
+/* Styling for credits section */
+
+.footer {
+  &__line {
+    font-size: 2rem;
+  }
+
+  &__credits {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+  }
+}
+
+.link {
+  color: $cyan;
+  &:hover {
+    color: $blue;
+  }
+}
+
+.footer--special {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
 }
