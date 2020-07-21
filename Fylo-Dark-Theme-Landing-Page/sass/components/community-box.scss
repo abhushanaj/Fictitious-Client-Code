@@ -1,4 +1,5 @@
 .community-box {
+  max-width: 1200px;
   background-color: $dark-blue-100;
   padding: 3rem;
   width: 60%;
@@ -8,12 +9,21 @@
   top: -30%;
   left: 50%;
   transform: translate(-50%, 30%);
+  @media only screen and(max-width:1200px) {
+    width: 80%;
+  }
+  @media only screen and(max-width:840px) {
+    top: -25%;
+  }
 }
 
 .sign-up {
   font-family: "Raleway", sans-serif;
   text-align: center;
   font-size: 2.4rem;
+  @media only screen and(max-width:700px) {
+    font-size: 1.8rem;
+  }
 }
 
 .info {
@@ -22,6 +32,9 @@
   color: rgba($white, 0.5);
   width: 80%;
   margin: 2rem auto;
+  @media only screen and(max-width:700px) {
+    width: 100%;
+  }
 }
 
 .newsletter-box {
@@ -31,10 +44,22 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 2rem;
+  @media only screen and(max-width:1300px) {
+    flex-direction: column;
+  }
+  @media only screen and(max-width:700px) {
+    width: 100%;
+  }
 }
 
 .input__group {
   flex: 0 0 70%;
+  @media only screen and(max-width:1300px) {
+    width: 80%;
+  }
+  @media only screen and(max-width:500px) {
+    width: 100%;
+  }
   input {
     width: 100%;
     padding: 1rem 2rem;
@@ -48,6 +73,13 @@
 
 .btn__group {
   flex: 0 0 25%;
+  @media only screen and(max-width:1300px) {
+    width: 80%;
+    margin-top: 2rem;
+  }
+  @media only screen and(max-width:500px) {
+    width: 100%;
+  }
   .btn--primary {
     padding: 1rem 1.5rem;
     font-size: 1.2rem;
