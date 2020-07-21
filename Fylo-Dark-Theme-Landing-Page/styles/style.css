@@ -188,7 +188,8 @@ img {
   align-items: center;
   justify-content: space-between;
   margin: 10rem auto;
-  position: relative; }
+  position: relative;
+  padding-bottom: 10rem; }
 
 .testimonial__card {
   background: #202a3c;
@@ -256,10 +257,61 @@ img {
     flex: 0 0 50%;
     color: #fff; }
 
+.community-box {
+  background-color: #1c2431;
+  padding: 3rem;
+  width: 60%;
+  margin: 0 auto;
+  color: #fff;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, 30%); }
+
+.sign-up {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 2.4rem; }
+
+.info {
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  width: 80%;
+  margin: 2rem auto; }
+
+.newsletter-box {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem; }
+
+.input__group {
+  flex: 0 0 70%; }
+  .input__group input {
+    width: 100%;
+    padding: 1rem 2rem;
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+    border-radius: 2rem;
+    border: none;
+    outline: none; }
+
+.btn__group {
+  flex: 0 0 25%; }
+  .btn__group .btn--primary {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    height: 100%; }
+
 footer {
   background: #0b1523;
   padding: 10rem;
-  min-height: 20vh; }
+  min-height: 20vh;
+  position: relative;
+  padding-top: 20rem; }
 
 .footer {
   color: #fff; }

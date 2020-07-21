@@ -1,0 +1,56 @@
+.community-box {
+  background-color: $dark-blue-100;
+  padding: 3rem;
+  width: 60%;
+  margin: 0 auto;
+  color: $white;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+}
+
+.sign-up {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.info {
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgba($white, 0.5);
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.newsletter-box {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.input__group {
+  flex: 0 0 70%;
+  input {
+    width: 100%;
+    padding: 1rem 2rem;
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+  }
+}
+
+.btn__group {
+  flex: 0 0 25%;
+  .btn--primary {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    height: 100%;
+  }
+}
