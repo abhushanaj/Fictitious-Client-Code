@@ -9,7 +9,7 @@
 .u-50 {
   width: 80%;
   margin: 0 auto;
-  background: pink;
+
   margin-top: 15rem;
   padding-left: 1rem;
   @media only screen and(max-width:900px) {
@@ -26,4 +26,8 @@
 
 .u-center {
   text-align: center;
+}
+
+.u-hidden {
+  display: none;
 }

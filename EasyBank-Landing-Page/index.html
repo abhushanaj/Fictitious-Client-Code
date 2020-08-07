@@ -40,11 +40,28 @@
             <a href="" class="navbar__link">Careers</a>
           </li>
         </ul>
+
         <div class="navbar__btn">
           <button class="btn btn--primary">Request Invite</button>
         </div>
+
+        <img
+          src="./images/icon-hamburger.svg"
+          alt="Navbar menu"
+          role="button"
+          id="hamburger"
+        />
       </nav>
 
+      <nav class="mobilenav-box u-hidden" id="mobile-nav">
+        <ul class="mobilenav">
+          <li class="mobilenav__item"><a href="">Home</a></li>
+          <li class="mobilenav__item"><a href="">About</a></li>
+          <li class="mobilenav__item"><a href="">Contact</a></li>
+          <li class="mobilenav__item"><a href="">Blog</a></li>
+          <li class="mobilenav__item"><a href="">Careers</a></li>
+        </ul>
+      </nav>
       <div class="herobox">
         <div class="herobox__content">
           <div class="u-50">
@@ -295,5 +312,7 @@
         </p>
       </div>
     </footer>
+
+    <script defer src="./scripts/index.js"></script>
   </body>
 </html>
