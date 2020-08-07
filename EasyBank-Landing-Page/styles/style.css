@@ -1,0 +1,25 @@
+/* Colors */
+/* ### Primary */
+/* ### Neutral */
+/* ### Font Weights */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Public Sans", sans-serif; }
+
+.u-conatiner {
+  max-width: 120rem;
+  margin: 0 auto; }
+  @media only screen and (max-width: 1200px) {
+    .u-conatiner {
+      width: 90%; } }

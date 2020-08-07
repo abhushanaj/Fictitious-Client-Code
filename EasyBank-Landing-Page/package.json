@@ -1,0 +1,15 @@
+{
+  "name": "easybank-landing-page",
+  "version": "1.0.0",
+  "description": "This repository includes the solution for easybank landing page challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "node-sass ./sass/style.scss ./styles/style.css -w"
+  },
+  "author": "Abhushan A Joshi",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
