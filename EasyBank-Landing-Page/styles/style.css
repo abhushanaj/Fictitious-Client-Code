@@ -14,6 +14,9 @@ html {
   @media only screen and (max-width: 1200px) {
     html {
       font-size: 56%; } }
+  @media only screen and (min-width: 1600px) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box;
@@ -79,6 +82,9 @@ a {
   @media only screen and (max-width: 1200px) {
     .u-container {
       width: 90%; } }
+  @media only screen and (min-width: 1600px) {
+    .u-container {
+      max-width: 1400px; } }
 
 .u-50 {
   width: 80%;
@@ -102,6 +108,9 @@ a {
 .u-hidden {
   display: none; }
 
+.header {
+  background: #fafafa; }
+
 .herobox {
   display: flex;
   justify-content: space-between;
@@ -109,6 +118,10 @@ a {
   background: #fafafa;
   position: relative;
   overflow: hidden; }
+  @media only screen and (min-width: 1600px) {
+    .herobox {
+      max-width: 1400px;
+      margin: 0 auto; } }
   @media only screen and (max-width: 800px) {
     .herobox {
       flex-direction: column; } }

@@ -1,3 +1,6 @@
+.header {
+  background: $very-light-gray;
+}
 .herobox {
   display: flex;
   justify-content: space-between;
@@ -5,6 +8,10 @@
   background: $very-light-gray;
   position: relative;
   overflow: hidden;
+  @media only screen and(min-width:1600px) {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
   @media only screen and(max-width:800px) {
     flex-direction: column;
   }
