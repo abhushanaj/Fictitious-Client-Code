@@ -3,6 +3,16 @@
   font-size: 4.3rem;
   font-weight: $medium;
   width: 80%;
+  @media only screen and(max-width:850px) {
+    width: 100%;
+  }
+
+  @media only screen and(max-width:800px) {
+    text-align: center;
+  }
+  @media only screen and(max-width:500px) {
+    font-size: 3.4rem;
+  }
 }
 
 .tagline {
@@ -10,6 +20,12 @@
   font-size: 1.6rem;
   margin: 2rem 0;
   width: 80%;
+  @media only screen and(max-width:850px) {
+    width: 100%;
+  }
+  @media only screen and(max-width:800px) {
+    text-align: center;
+  }
 }
 
 .heading-secondary {

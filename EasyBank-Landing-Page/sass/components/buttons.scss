@@ -28,3 +28,10 @@
     }
   }
 }
+
+.btn-container {
+  width: max-content;
+  @media only screen and(max-width:800px) {
+    margin: 0 auto;
+  }
+}

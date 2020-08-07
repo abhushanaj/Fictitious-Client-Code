@@ -4,24 +4,53 @@
   align-items: flex-start;
   background: $very-light-gray;
   position: relative;
-
   overflow: hidden;
+  @media only screen and(max-width:800px) {
+    flex-direction: column;
+  }
   & > * {
     flex: 0 0 50%;
+  }
+
+  &__content {
+    @media only screen and(max-width:800px) {
+      order: 2;
+      padding-bottom: 4rem;
+    }
   }
   &__image {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+    @media only screen and(max-width:800px) {
+      order: 1;
+      width: 70%;
+      margin: 0 auto;
+      background-color: yellow;
+      align-items: center;
+      justify-content: center;
+      max-height: 70vh;
+    }
+    @media only screen and(max-width:500px) {
+      width: 90%;
+    }
     img {
       max-width: 90%;
       transform: translate(10%, -10%);
+      @media only screen and(max-width:800px) {
+        max-width: 80%;
+        transform: translateY(-25%);
+      }
+      @media only screen and(max-width:425px) {
+        max-width: 100%;
+        transform: translateY(-20%);
+      }
     }
   }
 }
 
 .highlighter-image {
-  z-index: -20;
+  z-index: -1;
   position: absolute;
   top: 0;
   right: 0;

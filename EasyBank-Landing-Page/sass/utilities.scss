@@ -9,9 +9,19 @@
 .u-50 {
   width: 80%;
   margin: 0 auto;
-  // background: pink;
+  background: pink;
   margin-top: 15rem;
   padding-left: 1rem;
+  @media only screen and(max-width:900px) {
+    margin-top: 8rem;
+    width: 90%;
+  }
+  @media only screen and(max-width:800px) {
+    margin-top: 5rem;
+  }
+  @media only screen and(max-width:500px) {
+    margin-top: 0rem;
+  }
 }
 
 .u-center {

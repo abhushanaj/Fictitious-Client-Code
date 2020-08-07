@@ -32,12 +32,27 @@ a {
   font-size: 4.3rem;
   font-weight: 400;
   width: 80%; }
+  @media only screen and (max-width: 850px) {
+    .main-heading {
+      width: 100%; } }
+  @media only screen and (max-width: 800px) {
+    .main-heading {
+      text-align: center; } }
+  @media only screen and (max-width: 500px) {
+    .main-heading {
+      font-size: 3.4rem; } }
 
 .tagline {
   color: #9698a6;
   font-size: 1.6rem;
   margin: 2rem 0;
   width: 80%; }
+  @media only screen and (max-width: 850px) {
+    .tagline {
+      width: 100%; } }
+  @media only screen and (max-width: 800px) {
+    .tagline {
+      text-align: center; } }
 
 .heading-secondary {
   font-size: 3.2rem;
@@ -68,8 +83,19 @@ a {
 .u-50 {
   width: 80%;
   margin: 0 auto;
+  background: pink;
   margin-top: 15rem;
   padding-left: 1rem; }
+  @media only screen and (max-width: 900px) {
+    .u-50 {
+      margin-top: 8rem;
+      width: 90%; } }
+  @media only screen and (max-width: 800px) {
+    .u-50 {
+      margin-top: 5rem; } }
+  @media only screen and (max-width: 500px) {
+    .u-50 {
+      margin-top: 0rem; } }
 
 .u-center {
   text-align: center; }
@@ -81,18 +107,45 @@ a {
   background: #fafafa;
   position: relative;
   overflow: hidden; }
+  @media only screen and (max-width: 800px) {
+    .herobox {
+      flex-direction: column; } }
   .herobox > * {
     flex: 0 0 50%; }
+  @media only screen and (max-width: 800px) {
+    .herobox__content {
+      order: 2;
+      padding-bottom: 4rem; } }
   .herobox__image {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start; }
+    @media only screen and (max-width: 800px) {
+      .herobox__image {
+        order: 1;
+        width: 70%;
+        margin: 0 auto;
+        background-color: yellow;
+        align-items: center;
+        justify-content: center;
+        max-height: 70vh; } }
+    @media only screen and (max-width: 500px) {
+      .herobox__image {
+        width: 90%; } }
     .herobox__image img {
       max-width: 90%;
       transform: translate(10%, -10%); }
+      @media only screen and (max-width: 800px) {
+        .herobox__image img {
+          max-width: 80%;
+          transform: translateY(-25%); } }
+      @media only screen and (max-width: 425px) {
+        .herobox__image img {
+          max-width: 100%;
+          transform: translateY(-20%); } }
 
 .highlighter-image {
-  z-index: -20;
+  z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
@@ -109,6 +162,9 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center; }
+    @media only screen and (max-width: 500px) {
+      .navbar__items {
+        display: none; } }
   .navbar__item {
     margin: 0 1rem; }
   .navbar__link {
@@ -123,6 +179,10 @@ a {
 
 .logo-box img {
   max-width: 100%; }
+
+@media only screen and (max-width: 750px) {
+  .navbar__btn {
+    display: none; } }
 
 .navbar_btn {
   display: flex;
@@ -149,6 +209,12 @@ a {
         font-size: 1.5rem; } }
     .btn--primary:hover {
       background: linear-gradient(to right, #2bb7da, #31d35c); }
+
+.btn-container {
+  width: max-content; }
+  @media only screen and (max-width: 800px) {
+    .btn-container {
+      margin: 0 auto; } }
 
 .features {
   background: #f3f4f6;
