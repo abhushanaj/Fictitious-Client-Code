@@ -36,6 +36,18 @@ a {
   margin: 2rem 0;
   width: 80%; }
 
+.heading-secondary {
+  font-size: 3.2rem;
+  color: #2d314d;
+  font-weight: 400;
+  margin-bottom: 2rem; }
+
+.details {
+  color: #9698a6;
+  font-size: 1.6rem;
+  width: 60%;
+  margin: 0; }
+
 .u-container {
   max-width: 120rem;
   margin: 0 auto; }
@@ -53,7 +65,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background: #f3f4f6;
+  background: #fafafa;
   position: relative;
   overflow: hidden; }
   .herobox > * {
@@ -123,4 +135,24 @@ a {
 
 .features {
   min-height: 100vh;
-  background: #fafafa; }
+  background: #f3f4f6;
+  padding: 5rem 0; }
+
+.feature__cards {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.card:not(:last-child) {
+  margin-right: 4rem; }
+
+.card h2 {
+  margin: 1rem 0;
+  color: #2d314d;
+  font-weight: 500;
+  font-size: 2rem; }
+
+.card__details {
+  color: #9698a6;
+  font-size: 1.5rem; }
