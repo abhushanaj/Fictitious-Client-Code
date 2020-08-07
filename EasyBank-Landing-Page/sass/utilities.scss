@@ -1,7 +1,15 @@
-.u-conatiner {
+.u-container {
   max-width: 120rem;
   margin: 0 auto;
   @media only screen and(max-width:1200px) {
     width: 90%;
   }
+}
+
+.u-50 {
+  width: 80%;
+  margin: 0 auto;
+  // background: pink;
+  margin-top: 15rem;
+  padding-left: 1rem;
 }

@@ -1,0 +1,26 @@
+.navbar_btn {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.btn {
+  display: block;
+  border: 0;
+  outline: 0;
+  font-family: "Public Sans", sans-serif;
+  font-weight: $medium;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+
+  &--primary {
+    background: linear-gradient(to right, $lime-green, $bright-cyan);
+    color: $white;
+    padding: 1rem 1.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    &:hover {
+      background: linear-gradient(to right, $bright-cyan, $lime-green);
+    }
+  }
+}

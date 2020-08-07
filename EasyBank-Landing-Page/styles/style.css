@@ -15,11 +15,112 @@ html {
 body {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Public Sans", sans-serif; }
+  font-family: "Public Sans", sans-serif;
+  overflow-x: hidden !important; }
 
-.u-conatiner {
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.main-heading {
+  color: #2d314d;
+  font-size: 4.3rem;
+  font-weight: 400;
+  width: 80%; }
+
+.tagline {
+  color: #9698a6;
+  font-size: 1.6rem;
+  margin: 2rem 0;
+  width: 80%; }
+
+.u-container {
   max-width: 120rem;
   margin: 0 auto; }
   @media only screen and (max-width: 1200px) {
-    .u-conatiner {
+    .u-container {
       width: 90%; } }
+
+.u-50 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15rem;
+  padding-left: 1rem; }
+
+.herobox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #f3f4f6;
+  position: relative;
+  overflow: hidden; }
+  .herobox > * {
+    flex: 0 0 50%; }
+  .herobox__image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start; }
+    .herobox__image img {
+      max-width: 90%;
+      transform: translate(10%, -10%); }
+
+.highlighter-image {
+  z-index: -20;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%; }
+
+.navbar {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  z-index: 10; }
+  .navbar__items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+  .navbar__item {
+    margin: 0 1rem; }
+  .navbar__link {
+    font-size: 1.3rem;
+    color: #9698a6;
+    border-bottom: 3px solid transparent;
+    padding: 2rem 0;
+    transition: all 0.1s ease-in-out; }
+    .navbar__link:hover {
+      border-bottom: 3px solid #31d35c;
+      color: #2d314d; }
+
+.logo-box img {
+  max-width: 100%; }
+
+.navbar_btn {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; }
+
+.btn {
+  display: block;
+  border: 0;
+  outline: 0;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out; }
+  .btn--primary {
+    background: linear-gradient(to right, #31d35c, #2bb7da);
+    color: white;
+    padding: 1rem 1.8rem;
+    border-radius: 2rem;
+    cursor: pointer; }
+    .btn--primary:hover {
+      background: linear-gradient(to right, #2bb7da, #31d35c); }
+
+.features {
+  min-height: 100vh;
+  background: #fafafa; }

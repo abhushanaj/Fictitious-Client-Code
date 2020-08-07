@@ -1,0 +1,29 @@
+.herobox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: $light-grayish-blue;
+  position: relative;
+
+  overflow: hidden;
+  & > * {
+    flex: 0 0 50%;
+  }
+  &__image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    img {
+      max-width: 90%;
+      transform: translate(10%, -10%);
+    }
+  }
+}
+
+.highlighter-image {
+  z-index: -20;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+}
