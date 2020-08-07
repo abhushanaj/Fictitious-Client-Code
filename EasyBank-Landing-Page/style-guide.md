@@ -32,14 +32,3 @@ The designs were created to the following widths:
 
 - Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
 - Weights: 300, 400, 700
-
-About Us
-Contact
-Blog
-Careers
-Support
-Privacy Policy
-
-Request Invite
-
-© Easybank. All Rights Reserved
