@@ -4,7 +4,7 @@
 ![Github Forks](https://img.shields.io/github/forks/abhu-A-J/UI-Challanges)
 ![Github Stars](https://img.shields.io/github/stars/abhu-A-J/UI-Challanges)
 
-Welcome to the code respository for fictious-client, a jaw dropping collection of over 10 stunningly designed landing pages for fictional product based companies.
+Welcome to the code respository for fictitious-client, a jaw dropping collection of over 10 stunningly designed landing pages for fictional product based companies.
 
 The project was built while solving out the challenges from [FrontEndMentor]("frontendmentor.io/challenges") to strengthen my primary skills in HTML,CSS and JavaScript, by trying to abide to real-life workflows.
 
