@@ -1,14 +1,18 @@
-# UI Challenges
+# Fictitious-Client-Code
 
 ![Github Issues](https://img.shields.io/github/issues/abhu-A-J/UI-Challanges)
 ![Github Forks](https://img.shields.io/github/forks/abhu-A-J/UI-Challanges)
 ![Github Stars](https://img.shields.io/github/stars/abhu-A-J/UI-Challanges)
 
-This repository includes the solutions for UI challange found at [Frontend Mentor](https://www.frontendmentor.io)
+Welcome to the code respository for fictious-client, a jaw dropping collection of over 10 stunningly designed landing pages for fictional product based companies.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+The project was built while solving out the challenges from [FrontEndMentor]("frontendmentor.io/challenges") to strengthen my primary skills in HTML,CSS and JavaScript, by trying to abide to real-life workflows.
 
-The solutions which are present as of now are:
+This repository also serves the code solutions for UI challange found at [Frontend Mentor](https://www.frontendmentor.io)
+
+The one stop website showing the best landing pages is available at [Fictitious-Client-Website]("https://abhu-a-j.github.io/Fictitious-Client-Website/").
+
+If you are looking for solutions for one particular challenge then , check the table below.
 
 | **SL.No** | **Challenge Name**                                  | **Challenge Details**                                                                                                            | **Solution Code**                                                                                                        | **Preview Link**                                                |
 | --------- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
